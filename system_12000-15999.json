@@ -1,0 +1,2077 @@
+[
+  {
+    "title": "ERROR_IPSEC_QM_POLICY_EXISTS",
+    "code": 13000,
+    "msg": "The specified quick mode policy already exists."
+  },
+  {
+    "title": "ERROR_IPSEC_QM_POLICY_NOT_FOUND",
+    "code": 13001,
+    "msg": "The specified quick mode policy was not found."
+  },
+  {
+    "title": "ERROR_IPSEC_QM_POLICY_IN_USE",
+    "code": 13002,
+    "msg": "The specified quick mode policy is being used."
+  },
+  {
+    "title": "ERROR_IPSEC_MM_POLICY_EXISTS",
+    "code": 13003,
+    "msg": "The specified main mode policy already exists."
+  },
+  {
+    "title": "ERROR_IPSEC_MM_POLICY_NOT_FOUND",
+    "code": 13004,
+    "msg": "The specified main mode policy was not found."
+  },
+  {
+    "title": "ERROR_IPSEC_MM_POLICY_IN_USE",
+    "code": 13005,
+    "msg": "The specified main mode policy is being used."
+  },
+  {
+    "title": "ERROR_IPSEC_MM_FILTER_EXISTS",
+    "code": 13006,
+    "msg": "The specified main mode filter already exists."
+  },
+  {
+    "title": "ERROR_IPSEC_MM_FILTER_NOT_FOUND",
+    "code": 13007,
+    "msg": "The specified main mode filter was not found."
+  },
+  {
+    "title": "ERROR_IPSEC_TRANSPORT_FILTER_EXISTS",
+    "code": 13008,
+    "msg": "The specified transport mode filter already exists."
+  },
+  {
+    "title": "ERROR_IPSEC_TRANSPORT_FILTER_NOT_FOUND",
+    "code": 13009,
+    "msg": "The specified transport mode filter does not exist."
+  },
+  {
+    "title": "ERROR_IPSEC_MM_AUTH_EXISTS",
+    "code": 13010,
+    "msg": "The specified main mode authentication list exists."
+  },
+  {
+    "title": "ERROR_IPSEC_MM_AUTH_NOT_FOUND",
+    "code": 13011,
+    "msg": "The specified main mode authentication list was not found."
+  },
+  {
+    "title": "ERROR_IPSEC_MM_AUTH_IN_USE",
+    "code": 13012,
+    "msg": "The specified main mode authentication list is being used."
+  },
+  {
+    "title": "ERROR_IPSEC_DEFAULT_MM_POLICY_NOT_FOUND",
+    "code": 13013,
+    "msg": "The specified default main mode policy was not found."
+  },
+  {
+    "title": "ERROR_IPSEC_DEFAULT_MM_AUTH_NOT_FOUND",
+    "code": 13014,
+    "msg": "The specified default main mode authentication list was not found."
+  },
+  {
+    "title": "ERROR_IPSEC_DEFAULT_QM_POLICY_NOT_FOUND",
+    "code": 13015,
+    "msg": "The specified default quick mode policy was not found."
+  },
+  {
+    "title": "ERROR_IPSEC_TUNNEL_FILTER_EXISTS",
+    "code": 13016,
+    "msg": "The specified tunnel mode filter exists."
+  },
+  {
+    "title": "ERROR_IPSEC_TUNNEL_FILTER_NOT_FOUND",
+    "code": 13017,
+    "msg": "The specified tunnel mode filter was not found."
+  },
+  {
+    "title": "ERROR_IPSEC_MM_FILTER_PENDING_DELETION",
+    "code": 13018,
+    "msg": "The Main Mode filter is pending deletion."
+  },
+  {
+    "title": "ERROR_IPSEC_TRANSPORT_FILTER_PENDING_DELETION",
+    "code": 13019,
+    "msg": "The transport filter is pending deletion."
+  },
+  {
+    "title": "ERROR_IPSEC_TUNNEL_FILTER_PENDING_DELETION",
+    "code": 13020,
+    "msg": "The tunnel filter is pending deletion."
+  },
+  {
+    "title": "ERROR_IPSEC_MM_POLICY_PENDING_DELETION",
+    "code": 13021,
+    "msg": "The Main Mode policy is pending deletion."
+  },
+  {
+    "title": "ERROR_IPSEC_MM_AUTH_PENDING_DELETION",
+    "code": 13022,
+    "msg": "The Main Mode authentication bundle is pending deletion."
+  },
+  {
+    "title": "ERROR_IPSEC_QM_POLICY_PENDING_DELETION",
+    "code": 13023,
+    "msg": "The Quick Mode policy is pending deletion."
+  },
+  {
+    "title": "WARNING_IPSEC_MM_POLICY_PRUNED",
+    "code": 13024,
+    "msg": "The Main Mode policy was successfully added, but some of the requested offers are not supported."
+  },
+  {
+    "title": "WARNING_IPSEC_QM_POLICY_PRUNED",
+    "code": 13025,
+    "msg": "The Quick Mode policy was successfully added, but some of the requested offers are not supported."
+  },
+  {
+    "title": "ERROR_IPSEC_IKE_NEG_STATUS_BEGIN",
+    "code": 13800,
+    "msg": "ERROR_IPSEC_IKE_NEG_STATUS_BEGIN"
+  },
+  {
+    "title": "ERROR_IPSEC_IKE_AUTH_FAIL",
+    "code": 13801,
+    "msg": "IKE authentication credentials are unacceptable."
+  },
+  {
+    "title": "ERROR_IPSEC_IKE_ATTRIB_FAIL",
+    "code": 13802,
+    "msg": "IKE security attributes are unacceptable."
+  },
+  {
+    "title": "ERROR_IPSEC_IKE_NEGOTIATION_PENDING",
+    "code": 13803,
+    "msg": "IKE Negotiation in progress."
+  },
+  {
+    "title": "ERROR_IPSEC_IKE_GENERAL_PROCESSING_ERROR",
+    "code": 13804,
+    "msg": "General processing error."
+  },
+  {
+    "title": "ERROR_IPSEC_IKE_TIMED_OUT",
+    "code": 13805,
+    "msg": "Negotiation timed out."
+  },
+  {
+    "title": "ERROR_IPSEC_IKE_NO_CERT",
+    "code": 13806,
+    "msg": "IKE failed to find valid machine certificate. Contact your Network Security Administrator about installing a valid certificate in the appropriate Certificate Store."
+  },
+  {
+    "title": "ERROR_IPSEC_IKE_SA_DELETED",
+    "code": 13807,
+    "msg": "IKE SA deleted by peer before establishment completed."
+  },
+  {
+    "title": "ERROR_IPSEC_IKE_SA_REAPED",
+    "code": 13808,
+    "msg": "IKE SA deleted before establishment completed."
+  },
+  {
+    "title": "ERROR_IPSEC_IKE_MM_ACQUIRE_DROP",
+    "code": 13809,
+    "msg": "Negotiation request sat in Queue too long."
+  },
+  {
+    "title": "ERROR_IPSEC_IKE_QM_ACQUIRE_DROP",
+    "code": 13810,
+    "msg": "Negotiation request sat in Queue too long."
+  },
+  {
+    "title": "ERROR_IPSEC_IKE_QUEUE_DROP_MM",
+    "code": 13811,
+    "msg": "Negotiation request sat in Queue too long."
+  },
+  {
+    "title": "ERROR_IPSEC_IKE_QUEUE_DROP_NO_MM",
+    "code": 13812,
+    "msg": "Negotiation request sat in Queue too long."
+  },
+  {
+    "title": "ERROR_IPSEC_IKE_DROP_NO_RESPONSE",
+    "code": 13813,
+    "msg": "No response from peer."
+  },
+  {
+    "title": "ERROR_IPSEC_IKE_MM_DELAY_DROP",
+    "code": 13814,
+    "msg": "Negotiation took too long."
+  },
+  {
+    "title": "ERROR_IPSEC_IKE_QM_DELAY_DROP",
+    "code": 13815,
+    "msg": "Negotiation took too long."
+  },
+  {
+    "title": "ERROR_IPSEC_IKE_ERROR",
+    "code": 13816,
+    "msg": "Unknown error occurred."
+  },
+  {
+    "title": "ERROR_IPSEC_IKE_CRL_FAILED",
+    "code": 13817,
+    "msg": "Certificate Revocation Check failed."
+  },
+  {
+    "title": "ERROR_IPSEC_IKE_INVALID_KEY_USAGE",
+    "code": 13818,
+    "msg": "Invalid certificate key usage."
+  },
+  {
+    "title": "ERROR_IPSEC_IKE_INVALID_CERT_TYPE",
+    "code": 13819,
+    "msg": "Invalid certificate type."
+  },
+  {
+    "title": "ERROR_IPSEC_IKE_NO_PRIVATE_KEY",
+    "code": 13820,
+    "msg": "IKE negotiation failed because the machine certificate used does not have a private key. IPsec certificates require a private key. Contact your Network Security administrator about replacing with a certificate that has a private key."
+  },
+  {
+    "title": "ERROR_IPSEC_IKE_SIMULTANEOUS_REKEY",
+    "code": 13821,
+    "msg": "Simultaneous rekeys were detected."
+  },
+  {
+    "title": "ERROR_IPSEC_IKE_DH_FAIL",
+    "code": 13822,
+    "msg": "Failure in Diffie-Hellman computation."
+  },
+  {
+    "title": "ERROR_IPSEC_IKE_CRITICAL_PAYLOAD_NOT_RECOGNIZED",
+    "code": 13823,
+    "msg": "Don&#39;t know how to process critical payload."
+  },
+  {
+    "title": "ERROR_IPSEC_IKE_INVALID_HEADER",
+    "code": 13824,
+    "msg": "Invalid header."
+  },
+  {
+    "title": "ERROR_IPSEC_IKE_NO_POLICY",
+    "code": 13825,
+    "msg": "No policy configured."
+  },
+  {
+    "title": "ERROR_IPSEC_IKE_INVALID_SIGNATURE",
+    "code": 13826,
+    "msg": "Failed to verify signature."
+  },
+  {
+    "title": "ERROR_IPSEC_IKE_KERBEROS_ERROR",
+    "code": 13827,
+    "msg": "Failed to authenticate using Kerberos."
+  },
+  {
+    "title": "ERROR_IPSEC_IKE_NO_PUBLIC_KEY",
+    "code": 13828,
+    "msg": "Peer&#39;s certificate did not have a public key."
+  },
+  {
+    "title": "ERROR_IPSEC_IKE_PROCESS_ERR",
+    "code": 13829,
+    "msg": "Error processing error payload."
+  },
+  {
+    "title": "ERROR_IPSEC_IKE_PROCESS_ERR_SA",
+    "code": 13830,
+    "msg": "Error processing SA payload."
+  },
+  {
+    "title": "ERROR_IPSEC_IKE_PROCESS_ERR_PROP",
+    "code": 13831,
+    "msg": "Error processing Proposal payload."
+  },
+  {
+    "title": "ERROR_IPSEC_IKE_PROCESS_ERR_TRANS",
+    "code": 13832,
+    "msg": "Error processing Transform payload."
+  },
+  {
+    "title": "ERROR_IPSEC_IKE_PROCESS_ERR_KE",
+    "code": 13833,
+    "msg": "Error processing KE payload."
+  },
+  {
+    "title": "ERROR_IPSEC_IKE_PROCESS_ERR_ID",
+    "code": 13834,
+    "msg": "Error processing ID payload."
+  },
+  {
+    "title": "ERROR_IPSEC_IKE_PROCESS_ERR_CERT",
+    "code": 13835,
+    "msg": "Error processing Cert payload."
+  },
+  {
+    "title": "ERROR_IPSEC_IKE_PROCESS_ERR_CERT_REQ",
+    "code": 13836,
+    "msg": "Error processing Certificate Request payload."
+  },
+  {
+    "title": "ERROR_IPSEC_IKE_PROCESS_ERR_HASH",
+    "code": 13837,
+    "msg": "Error processing Hash payload."
+  },
+  {
+    "title": "ERROR_IPSEC_IKE_PROCESS_ERR_SIG",
+    "code": 13838,
+    "msg": "Error processing Signature payload."
+  },
+  {
+    "title": "ERROR_IPSEC_IKE_PROCESS_ERR_NONCE",
+    "code": 13839,
+    "msg": "Error processing Nonce payload."
+  },
+  {
+    "title": "ERROR_IPSEC_IKE_PROCESS_ERR_NOTIFY",
+    "code": 13840,
+    "msg": "Error processing Notify payload."
+  },
+  {
+    "title": "ERROR_IPSEC_IKE_PROCESS_ERR_DELETE",
+    "code": 13841,
+    "msg": "Error processing Delete Payload."
+  },
+  {
+    "title": "ERROR_IPSEC_IKE_PROCESS_ERR_VENDOR",
+    "code": 13842,
+    "msg": "Error processing VendorId payload."
+  },
+  {
+    "title": "ERROR_IPSEC_IKE_INVALID_PAYLOAD",
+    "code": 13843,
+    "msg": "Invalid payload received."
+  },
+  {
+    "title": "ERROR_IPSEC_IKE_LOAD_SOFT_SA",
+    "code": 13844,
+    "msg": "Soft SA loaded."
+  },
+  {
+    "title": "ERROR_IPSEC_IKE_SOFT_SA_TORN_DOWN",
+    "code": 13845,
+    "msg": "Soft SA torn down."
+  },
+  {
+    "title": "ERROR_IPSEC_IKE_INVALID_COOKIE",
+    "code": 13846,
+    "msg": "Invalid cookie received."
+  },
+  {
+    "title": "ERROR_IPSEC_IKE_NO_PEER_CERT",
+    "code": 13847,
+    "msg": "Peer failed to send valid machine certificate."
+  },
+  {
+    "title": "ERROR_IPSEC_IKE_PEER_CRL_FAILED",
+    "code": 13848,
+    "msg": "Certification Revocation check of peer&#39;s certificate failed."
+  },
+  {
+    "title": "ERROR_IPSEC_IKE_POLICY_CHANGE",
+    "code": 13849,
+    "msg": "New policy invalidated SAs formed with old policy."
+  },
+  {
+    "title": "ERROR_IPSEC_IKE_NO_MM_POLICY",
+    "code": 13850,
+    "msg": "There is no available Main Mode IKE policy."
+  },
+  {
+    "title": "ERROR_IPSEC_IKE_NOTCBPRIV",
+    "code": 13851,
+    "msg": "Failed to enabled TCB privilege."
+  },
+  {
+    "title": "ERROR_IPSEC_IKE_SECLOADFAIL",
+    "code": 13852,
+    "msg": "Failed to load SECURITY.DLL."
+  },
+  {
+    "title": "ERROR_IPSEC_IKE_FAILSSPINIT",
+    "code": 13853,
+    "msg": "Failed to obtain security function table dispatch address from SSPI."
+  },
+  {
+    "title": "ERROR_IPSEC_IKE_FAILQUERYSSP",
+    "code": 13854,
+    "msg": "Failed to query Kerberos package to obtain max token size."
+  },
+  {
+    "title": "ERROR_IPSEC_IKE_SRVACQFAIL",
+    "code": 13855,
+    "msg": "Failed to obtain Kerberos server credentials for ISAKMP/ERROR_IPSEC_IKE service. Kerberos authentication will not function. The most likely reason for this is lack of domain membership. This is normal if your computer is a member of a workgroup."
+  },
+  {
+    "title": "ERROR_IPSEC_IKE_SRVQUERYCRED",
+    "code": 13856,
+    "msg": "Failed to determine SSPI principal name for ISAKMP/ERROR_IPSEC_IKE service ( )."
+  },
+  {
+    "title": "ERROR_IPSEC_IKE_GETSPIFAIL",
+    "code": 13857,
+    "msg": "Failed to obtain new SPI for the inbound SA from IPsec driver. The most common cause for this is that the driver does not have the correct filter. Check your policy to verify the filters."
+  },
+  {
+    "title": "ERROR_IPSEC_IKE_INVALID_FILTER",
+    "code": 13858,
+    "msg": "Given filter is invalid."
+  },
+  {
+    "title": "ERROR_IPSEC_IKE_OUT_OF_MEMORY",
+    "code": 13859,
+    "msg": "Memory allocation failed."
+  },
+  {
+    "title": "ERROR_IPSEC_IKE_ADD_UPDATE_KEY_FAILED",
+    "code": 13860,
+    "msg": "Failed to add Security Association to IPsec Driver. The most common cause for this is if the IKE negotiation took too long to complete. If the problem persists, reduce the load on the faulting machine."
+  },
+  {
+    "title": "ERROR_IPSEC_IKE_INVALID_POLICY",
+    "code": 13861,
+    "msg": "Invalid policy."
+  },
+  {
+    "title": "ERROR_IPSEC_IKE_UNKNOWN_DOI",
+    "code": 13862,
+    "msg": "Invalid DOI."
+  },
+  {
+    "title": "ERROR_IPSEC_IKE_INVALID_SITUATION",
+    "code": 13863,
+    "msg": "Invalid situation."
+  },
+  {
+    "title": "ERROR_IPSEC_IKE_DH_FAILURE",
+    "code": 13864,
+    "msg": "Diffie-Hellman failure."
+  },
+  {
+    "title": "ERROR_IPSEC_IKE_INVALID_GROUP",
+    "code": 13865,
+    "msg": "Invalid Diffie-Hellman group."
+  },
+  {
+    "title": "ERROR_IPSEC_IKE_ENCRYPT",
+    "code": 13866,
+    "msg": "Error encrypting payload."
+  },
+  {
+    "title": "ERROR_IPSEC_IKE_DECRYPT",
+    "code": 13867,
+    "msg": "Error decrypting payload."
+  },
+  {
+    "title": "ERROR_IPSEC_IKE_POLICY_MATCH",
+    "code": 13868,
+    "msg": "Policy match error."
+  },
+  {
+    "title": "ERROR_IPSEC_IKE_UNSUPPORTED_ID",
+    "code": 13869,
+    "msg": "Unsupported ID."
+  },
+  {
+    "title": "ERROR_IPSEC_IKE_INVALID_HASH",
+    "code": 13870,
+    "msg": "Hash verification failed."
+  },
+  {
+    "title": "ERROR_IPSEC_IKE_INVALID_HASH_ALG",
+    "code": 13871,
+    "msg": "Invalid hash algorithm."
+  },
+  {
+    "title": "ERROR_IPSEC_IKE_INVALID_HASH_SIZE",
+    "code": 13872,
+    "msg": "Invalid hash size."
+  },
+  {
+    "title": "ERROR_IPSEC_IKE_INVALID_ENCRYPT_ALG",
+    "code": 13873,
+    "msg": "Invalid encryption algorithm."
+  },
+  {
+    "title": "ERROR_IPSEC_IKE_INVALID_AUTH_ALG",
+    "code": 13874,
+    "msg": "Invalid authentication algorithm."
+  },
+  {
+    "title": "ERROR_IPSEC_IKE_INVALID_SIG",
+    "code": 13875,
+    "msg": "Invalid certificate signature."
+  },
+  {
+    "title": "ERROR_IPSEC_IKE_LOAD_FAILED",
+    "code": 13876,
+    "msg": "Load failed."
+  },
+  {
+    "title": "ERROR_IPSEC_IKE_RPC_DELETE",
+    "code": 13877,
+    "msg": "Deleted via RPC call."
+  },
+  {
+    "title": "ERROR_IPSEC_IKE_BENIGN_REINIT",
+    "code": 13878,
+    "msg": "Temporary state created to perform reinitialization. This is not a real failure."
+  },
+  {
+    "title": "ERROR_IPSEC_IKE_INVALID_RESPONDER_LIFETIME_NOTIFY",
+    "code": 13879,
+    "msg": "The lifetime value received in the Responder Lifetime Notify is below the Windows 2000 configured minimum value. Please fix the policy on the peer machine."
+  },
+  {
+    "title": "ERROR_IPSEC_IKE_INVALID_MAJOR_VERSION",
+    "code": 13880,
+    "msg": "The recipient cannot handle version of IKE specified in the header."
+  },
+  {
+    "title": "ERROR_IPSEC_IKE_INVALID_CERT_KEYLEN",
+    "code": 13881,
+    "msg": "Key length in certificate is too small for configured security requirements."
+  },
+  {
+    "title": "ERROR_IPSEC_IKE_MM_LIMIT",
+    "code": 13882,
+    "msg": "Max number of established MM SAs to peer exceeded."
+  },
+  {
+    "title": "ERROR_IPSEC_IKE_NEGOTIATION_DISABLED",
+    "code": 13883,
+    "msg": "IKE received a policy that disables negotiation."
+  },
+  {
+    "title": "ERROR_IPSEC_IKE_QM_LIMIT",
+    "code": 13884,
+    "msg": "Reached maximum quick mode limit for the main mode. New main mode will be started."
+  },
+  {
+    "title": "ERROR_IPSEC_IKE_MM_EXPIRED",
+    "code": 13885,
+    "msg": "Main mode SA lifetime expired or peer sent a main mode delete."
+  },
+  {
+    "title": "ERROR_IPSEC_IKE_PEER_MM_ASSUMED_INVALID",
+    "code": 13886,
+    "msg": "Main mode SA assumed to be invalid because peer stopped responding."
+  },
+  {
+    "title": "ERROR_IPSEC_IKE_CERT_CHAIN_POLICY_MISMATCH",
+    "code": 13887,
+    "msg": "Certificate doesn&#39;t chain to a trusted root in IPsec policy."
+  },
+  {
+    "title": "ERROR_IPSEC_IKE_UNEXPECTED_MESSAGE_ID",
+    "code": 13888,
+    "msg": "Received unexpected message ID."
+  },
+  {
+    "title": "ERROR_IPSEC_IKE_INVALID_AUTH_PAYLOAD",
+    "code": 13889,
+    "msg": "Received invalid authentication offers."
+  },
+  {
+    "title": "ERROR_IPSEC_IKE_DOS_COOKIE_SENT",
+    "code": 13890,
+    "msg": "Sent DoS cookie notify to initiator."
+  },
+  {
+    "title": "ERROR_IPSEC_IKE_SHUTTING_DOWN",
+    "code": 13891,
+    "msg": "IKE service is shutting down."
+  },
+  {
+    "title": "ERROR_IPSEC_IKE_CGA_AUTH_FAILED",
+    "code": 13892,
+    "msg": "Could not verify binding between CGA address and certificate."
+  },
+  {
+    "title": "ERROR_IPSEC_IKE_PROCESS_ERR_NATOA",
+    "code": 13893,
+    "msg": "Error processing NatOA payload."
+  },
+  {
+    "title": "ERROR_IPSEC_IKE_INVALID_MM_FOR_QM",
+    "code": 13894,
+    "msg": "Parameters of the main mode are invalid for this quick mode."
+  },
+  {
+    "title": "ERROR_IPSEC_IKE_QM_EXPIRED",
+    "code": 13895,
+    "msg": "Quick mode SA was expired by IPsec driver."
+  },
+  {
+    "title": "ERROR_IPSEC_IKE_TOO_MANY_FILTERS",
+    "code": 13896,
+    "msg": "Too many dynamically added IKEEXT filters were detected."
+  },
+  {
+    "title": "ERROR_IPSEC_IKE_NEG_STATUS_END",
+    "code": 13897,
+    "msg": "ERROR_IPSEC_IKE_NEG_STATUS_END"
+  },
+  {
+    "title": "ERROR_IPSEC_IKE_KILL_DUMMY_NAP_TUNNEL",
+    "code": 13898,
+    "msg": "NAP reauth succeeded and must delete the dummy NAP IKEv2 tunnel."
+  },
+  {
+    "title": "ERROR_IPSEC_IKE_INNER_IP_ASSIGNMENT_FAILURE",
+    "code": 13899,
+    "msg": "Error in assigning inner IP address to initiator in tunnel mode."
+  },
+  {
+    "title": "ERROR_IPSEC_IKE_REQUIRE_CP_PAYLOAD_MISSING",
+    "code": 13900,
+    "msg": "Require configuration payload missing."
+  },
+  {
+    "title": "ERROR_IPSEC_KEY_MODULE_IMPERSONATION_NEGOTIATION_PENDING",
+    "code": 13901,
+    "msg": "A negotiation running as the security principle who issued the connection is in progress."
+  },
+  {
+    "title": "ERROR_IPSEC_IKE_COEXISTENCE_SUPPRESS",
+    "code": 13902,
+    "msg": "SA was deleted due to IKEv1/AuthIP co-existence suppress check."
+  },
+  {
+    "title": "ERROR_IPSEC_IKE_RATELIMIT_DROP",
+    "code": 13903,
+    "msg": "Incoming SA request was dropped due to peer IP address rate limiting."
+  },
+  {
+    "title": "ERROR_IPSEC_IKE_PEER_DOESNT_SUPPORT_MOBIKE",
+    "code": 13904,
+    "msg": "Peer does not support MOBIKE."
+  },
+  {
+    "title": "ERROR_IPSEC_IKE_AUTHORIZATION_FAILURE",
+    "code": 13905,
+    "msg": "SA establishment is not authorized."
+  },
+  {
+    "title": "ERROR_IPSEC_IKE_STRONG_CRED_AUTHORIZATION_FAILURE",
+    "code": 13906,
+    "msg": "SA establishment is not authorized because there is not a sufficiently strong PKINIT-based credential."
+  },
+  {
+    "title": "ERROR_IPSEC_IKE_AUTHORIZATION_FAILURE_WITH_OPTIONAL_RETRY",
+    "code": 13907,
+    "msg": "SA establishment is not authorized. You may need to enter updated or different credentials such as a smartcard."
+  },
+  {
+    "title": "ERROR_IPSEC_IKE_STRONG_CRED_AUTHORIZATION_AND_CERTMAP_FAILURE",
+    "code": 13908,
+    "msg": "SA establishment is not authorized because there is not a sufficiently strong PKINIT-based credential. This might be related to certificate-to-account mapping failure for the SA."
+  },
+  {
+    "title": "ERROR_IPSEC_IKE_NEG_STATUS_EXTENDED_END",
+    "code": 13909,
+    "msg": "ERROR_IPSEC_IKE_NEG_STATUS_EXTENDED_END"
+  },
+  {
+    "title": "ERROR_IPSEC_BAD_SPI",
+    "code": 13910,
+    "msg": "The SPI in the packet does not match a valid IPsec SA."
+  },
+  {
+    "title": "ERROR_IPSEC_SA_LIFETIME_EXPIRED",
+    "code": 13911,
+    "msg": "Packet was received on an IPsec SA whose lifetime has expired."
+  },
+  {
+    "title": "ERROR_IPSEC_WRONG_SA",
+    "code": 13912,
+    "msg": "Packet was received on an IPsec SA that does not match the packet characteristics."
+  },
+  {
+    "title": "ERROR_IPSEC_REPLAY_CHECK_FAILED",
+    "code": 13913,
+    "msg": "Packet sequence number replay check failed."
+  },
+  {
+    "title": "ERROR_IPSEC_INVALID_PACKET",
+    "code": 13914,
+    "msg": "IPsec header and/or trailer in the packet is invalid."
+  },
+  {
+    "title": "ERROR_IPSEC_INTEGRITY_CHECK_FAILED",
+    "code": 13915,
+    "msg": "IPsec integrity check failed."
+  },
+  {
+    "title": "ERROR_IPSEC_CLEAR_TEXT_DROP",
+    "code": 13916,
+    "msg": "IPsec dropped a clear text packet."
+  },
+  {
+    "title": "ERROR_IPSEC_AUTH_FIREWALL_DROP",
+    "code": 13917,
+    "msg": "IPsec dropped an incoming ESP packet in authenticated firewall mode. This drop is benign."
+  },
+  {
+    "title": "ERROR_IPSEC_THROTTLE_DROP",
+    "code": 13918,
+    "msg": "IPsec dropped a packet due to DoS throttling."
+  },
+  {
+    "title": "ERROR_IPSEC_DOSP_BLOCK",
+    "code": 13925,
+    "msg": "IPsec DoS Protection matched an explicit block rule."
+  },
+  {
+    "title": "ERROR_IPSEC_DOSP_RECEIVED_MULTICAST",
+    "code": 13926,
+    "msg": "IPsec DoS Protection received an IPsec specific multicast packet which is not allowed."
+  },
+  {
+    "title": "ERROR_IPSEC_DOSP_INVALID_PACKET",
+    "code": 13927,
+    "msg": "IPsec DoS Protection received an incorrectly formatted packet."
+  },
+  {
+    "title": "ERROR_IPSEC_DOSP_STATE_LOOKUP_FAILED",
+    "code": 13928,
+    "msg": "IPsec DoS Protection failed to look up state."
+  },
+  {
+    "title": "ERROR_IPSEC_DOSP_MAX_ENTRIES",
+    "code": 13929,
+    "msg": "IPsec DoS Protection failed to create state because the maximum number of entries allowed by policy has been reached."
+  },
+  {
+    "title": "ERROR_IPSEC_DOSP_KEYMOD_NOT_ALLOWED",
+    "code": 13930,
+    "msg": "IPsec DoS Protection received an IPsec negotiation packet for a keying module which is not allowed by policy."
+  },
+  {
+    "title": "ERROR_IPSEC_DOSP_NOT_INSTALLED",
+    "code": 13931,
+    "msg": "IPsec DoS Protection has not been enabled."
+  },
+  {
+    "title": "ERROR_IPSEC_DOSP_MAX_PER_IP_RATELIMIT_QUEUES",
+    "code": 13932,
+    "msg": "IPsec DoS Protection failed to create a per internal IP rate limit queue because the maximum number of queues allowed by policy has been reached."
+  },
+  {
+    "title": "ERROR_SXS_SECTION_NOT_FOUND",
+    "code": 14000,
+    "msg": "The requested section was not present in the activation context."
+  },
+  {
+    "title": "ERROR_SXS_CANT_GEN_ACTCTX",
+    "code": 14001,
+    "msg": "The application has failed to start because its side-by-side configuration is incorrect. Please see the application event log or use the command-line sxstrace.exe tool for more detail."
+  },
+  {
+    "title": "ERROR_SXS_INVALID_ACTCTXDATA_FORMAT",
+    "code": 14002,
+    "msg": "The application binding data format is invalid."
+  },
+  {
+    "title": "ERROR_SXS_ASSEMBLY_NOT_FOUND",
+    "code": 14003,
+    "msg": "The referenced assembly is not installed on your system."
+  },
+  {
+    "title": "ERROR_SXS_MANIFEST_FORMAT_ERROR",
+    "code": 14004,
+    "msg": "The manifest file does not begin with the required tag and format information."
+  },
+  {
+    "title": "ERROR_SXS_MANIFEST_PARSE_ERROR",
+    "code": 14005,
+    "msg": "The manifest file contains one or more syntax errors."
+  },
+  {
+    "title": "ERROR_SXS_ACTIVATION_CONTEXT_DISABLED",
+    "code": 14006,
+    "msg": "The application attempted to activate a disabled activation context."
+  },
+  {
+    "title": "ERROR_SXS_KEY_NOT_FOUND",
+    "code": 14007,
+    "msg": "The requested lookup key was not found in any active activation context."
+  },
+  {
+    "title": "ERROR_SXS_VERSION_CONFLICT",
+    "code": 14008,
+    "msg": "A component version required by the application conflicts with another component version already active."
+  },
+  {
+    "title": "ERROR_SXS_WRONG_SECTION_TYPE",
+    "code": 14009,
+    "msg": "The type requested activation context section does not match the query API used."
+  },
+  {
+    "title": "ERROR_SXS_THREAD_QUERIES_DISABLED",
+    "code": 14010,
+    "msg": "Lack of system resources has required isolated activation to be disabled for the current thread of execution."
+  },
+  {
+    "title": "ERROR_SXS_PROCESS_DEFAULT_ALREADY_SET",
+    "code": 14011,
+    "msg": "An attempt to set the process default activation context failed because the process default activation context was already set."
+  },
+  {
+    "title": "ERROR_SXS_UNKNOWN_ENCODING_GROUP",
+    "code": 14012,
+    "msg": "The encoding group identifier specified is not recognized."
+  },
+  {
+    "title": "ERROR_SXS_UNKNOWN_ENCODING",
+    "code": 14013,
+    "msg": "The encoding requested is not recognized."
+  },
+  {
+    "title": "ERROR_SXS_INVALID_XML_NAMESPACE_URI",
+    "code": 14014,
+    "msg": "The manifest contains a reference to an invalid URI."
+  },
+  {
+    "title": "ERROR_SXS_ROOT_MANIFEST_DEPENDENCY_NOT_INSTALLED",
+    "code": 14015,
+    "msg": "The application manifest contains a reference to a dependent assembly which is not installed."
+  },
+  {
+    "title": "ERROR_SXS_LEAF_MANIFEST_DEPENDENCY_NOT_INSTALLED",
+    "code": 14016,
+    "msg": "The manifest for an assembly used by the application has a reference to a dependent assembly which is not installed."
+  },
+  {
+    "title": "ERROR_SXS_INVALID_ASSEMBLY_IDENTITY_ATTRIBUTE",
+    "code": 14017,
+    "msg": "The manifest contains an attribute for the assembly identity which is not valid."
+  },
+  {
+    "title": "ERROR_SXS_MANIFEST_MISSING_REQUIRED_DEFAULT_NAMESPACE",
+    "code": 14018,
+    "msg": "The manifest is missing the required default namespace specification on the assembly element."
+  },
+  {
+    "title": "ERROR_SXS_MANIFEST_INVALID_REQUIRED_DEFAULT_NAMESPACE",
+    "code": 14019,
+    "msg": "The manifest has a default namespace specified on the assembly element but its value is not &#34;urn:schemas-microsoft-com:asm.v1&#34;."
+  },
+  {
+    "title": "ERROR_SXS_PRIVATE_MANIFEST_CROSS_PATH_WITH_REPARSE_POINT",
+    "code": 14020,
+    "msg": "The private manifest probed has crossed a path with an unsupported reparse point."
+  },
+  {
+    "title": "ERROR_SXS_DUPLICATE_DLL_NAME",
+    "code": 14021,
+    "msg": "Two or more components referenced directly or indirectly by the application manifest have files by the same name."
+  },
+  {
+    "title": "ERROR_SXS_DUPLICATE_WINDOWCLASS_NAME",
+    "code": 14022,
+    "msg": "Two or more components referenced directly or indirectly by the application manifest have window classes with the same name."
+  },
+  {
+    "title": "ERROR_SXS_DUPLICATE_CLSID",
+    "code": 14023,
+    "msg": "Two or more components referenced directly or indirectly by the application manifest have the same COM server CLSIDs."
+  },
+  {
+    "title": "ERROR_SXS_DUPLICATE_IID",
+    "code": 14024,
+    "msg": "Two or more components referenced directly or indirectly by the application manifest have proxies for the same COM interface IIDs."
+  },
+  {
+    "title": "ERROR_SXS_DUPLICATE_TLBID",
+    "code": 14025,
+    "msg": "Two or more components referenced directly or indirectly by the application manifest have the same COM type library TLBIDs."
+  },
+  {
+    "title": "ERROR_SXS_DUPLICATE_PROGID",
+    "code": 14026,
+    "msg": "Two or more components referenced directly or indirectly by the application manifest have the same COM ProgIDs."
+  },
+  {
+    "title": "ERROR_SXS_DUPLICATE_ASSEMBLY_NAME",
+    "code": 14027,
+    "msg": "Two or more components referenced directly or indirectly by the application manifest are different versions of the same component which is not permitted."
+  },
+  {
+    "title": "ERROR_SXS_FILE_HASH_MISMATCH",
+    "code": 14028,
+    "msg": "A component&#39;s file does not match the verification information present in the component manifest."
+  },
+  {
+    "title": "ERROR_SXS_POLICY_PARSE_ERROR",
+    "code": 14029,
+    "msg": "The policy manifest contains one or more syntax errors."
+  },
+  {
+    "title": "ERROR_SXS_XML_E_MISSINGQUOTE",
+    "code": 14030,
+    "msg": "Manifest Parse Error : A string literal was expected, but no opening quote character was found."
+  },
+  {
+    "title": "ERROR_SXS_XML_E_COMMENTSYNTAX",
+    "code": 14031,
+    "msg": "Manifest Parse Error : Incorrect syntax was used in a comment."
+  },
+  {
+    "title": "ERROR_SXS_XML_E_BADSTARTNAMECHAR",
+    "code": 14032,
+    "msg": "Manifest Parse Error : A name was started with an invalid character."
+  },
+  {
+    "title": "ERROR_SXS_XML_E_BADNAMECHAR",
+    "code": 14033,
+    "msg": "Manifest Parse Error : A name contained an invalid character."
+  },
+  {
+    "title": "ERROR_SXS_XML_E_BADCHARINSTRING",
+    "code": 14034,
+    "msg": "Manifest Parse Error : A string literal contained an invalid character."
+  },
+  {
+    "title": "ERROR_SXS_XML_E_XMLDECLSYNTAX",
+    "code": 14035,
+    "msg": "Manifest Parse Error : Invalid syntax for an xml declaration."
+  },
+  {
+    "title": "ERROR_SXS_XML_E_BADCHARDATA",
+    "code": 14036,
+    "msg": "Manifest Parse Error : An Invalid character was found in text content."
+  },
+  {
+    "title": "ERROR_SXS_XML_E_MISSINGWHITESPACE",
+    "code": 14037,
+    "msg": "Manifest Parse Error : Required white space was missing."
+  },
+  {
+    "title": "ERROR_SXS_XML_E_EXPECTINGTAGEND",
+    "code": 14038,
+    "msg": "Manifest Parse Error : The character &#39;&gt;&#39; was expected."
+  },
+  {
+    "title": "ERROR_SXS_XML_E_MISSINGSEMICOLON",
+    "code": 14039,
+    "msg": "Manifest Parse Error : A semi colon character was expected."
+  },
+  {
+    "title": "ERROR_SXS_XML_E_UNBALANCEDPAREN",
+    "code": 14040,
+    "msg": "Manifest Parse Error : Unbalanced parentheses."
+  },
+  {
+    "title": "ERROR_SXS_XML_E_INTERNALERROR",
+    "code": 14041,
+    "msg": "Manifest Parse Error : Internal error."
+  },
+  {
+    "title": "ERROR_SXS_XML_E_UNEXPECTED_WHITESPACE",
+    "code": 14042,
+    "msg": "Manifest Parse Error : Whitespace is not allowed at this location."
+  },
+  {
+    "title": "ERROR_SXS_XML_E_INCOMPLETE_ENCODING",
+    "code": 14043,
+    "msg": "Manifest Parse Error : End of file reached in invalid state for current encoding."
+  },
+  {
+    "title": "ERROR_SXS_XML_E_MISSING_PAREN",
+    "code": 14044,
+    "msg": "Manifest Parse Error : Missing parenthesis."
+  },
+  {
+    "title": "ERROR_SXS_XML_E_EXPECTINGCLOSEQUOTE",
+    "code": 14045,
+    "msg": "Manifest Parse Error : A single or double closing quote character (\\&#39; or \\&#34;) is missing."
+  },
+  {
+    "title": "ERROR_SXS_XML_E_MULTIPLE_COLONS",
+    "code": 14046,
+    "msg": "Manifest Parse Error : Multiple colons are not allowed in a name."
+  },
+  {
+    "title": "ERROR_SXS_XML_E_INVALID_DECIMAL",
+    "code": 14047,
+    "msg": "Manifest Parse Error : Invalid character for decimal digit."
+  },
+  {
+    "title": "ERROR_SXS_XML_E_INVALID_HEXIDECIMAL",
+    "code": 14048,
+    "msg": "Manifest Parse Error : Invalid character for hexadecimal digit."
+  },
+  {
+    "title": "ERROR_SXS_XML_E_INVALID_UNICODE",
+    "code": 14049,
+    "msg": "Manifest Parse Error : Invalid unicode character value for this platform."
+  },
+  {
+    "title": "ERROR_SXS_XML_E_WHITESPACEORQUESTIONMARK",
+    "code": 14050,
+    "msg": "Manifest Parse Error : Expecting whitespace or &#39;?&#39;."
+  },
+  {
+    "title": "ERROR_SXS_XML_E_UNEXPECTEDENDTAG",
+    "code": 14051,
+    "msg": "Manifest Parse Error : End tag was not expected at this location."
+  },
+  {
+    "title": "ERROR_SXS_XML_E_UNCLOSEDTAG",
+    "code": 14052,
+    "msg": "Manifest Parse Error : The following tags were not closed: %1."
+  },
+  {
+    "title": "ERROR_SXS_XML_E_DUPLICATEATTRIBUTE",
+    "code": 14053,
+    "msg": "Manifest Parse Error : Duplicate attribute."
+  },
+  {
+    "title": "ERROR_SXS_XML_E_MULTIPLEROOTS",
+    "code": 14054,
+    "msg": "Manifest Parse Error : Only one top level element is allowed in an XML document."
+  },
+  {
+    "title": "ERROR_SXS_XML_E_INVALIDATROOTLEVEL",
+    "code": 14055,
+    "msg": "Manifest Parse Error : Invalid at the top level of the document."
+  },
+  {
+    "title": "ERROR_SXS_XML_E_BADXMLDECL",
+    "code": 14056,
+    "msg": "Manifest Parse Error : Invalid xml declaration."
+  },
+  {
+    "title": "ERROR_SXS_XML_E_MISSINGROOT",
+    "code": 14057,
+    "msg": "Manifest Parse Error : XML document must have a top level element."
+  },
+  {
+    "title": "ERROR_SXS_XML_E_UNEXPECTEDEOF",
+    "code": 14058,
+    "msg": "Manifest Parse Error : Unexpected end of file."
+  },
+  {
+    "title": "ERROR_SXS_XML_E_BADPEREFINSUBSET",
+    "code": 14059,
+    "msg": "Manifest Parse Error : Parameter entities cannot be used inside markup declarations in an internal subset."
+  },
+  {
+    "title": "ERROR_SXS_XML_E_UNCLOSEDSTARTTAG",
+    "code": 14060,
+    "msg": "Manifest Parse Error : Element was not closed."
+  },
+  {
+    "title": "ERROR_SXS_XML_E_UNCLOSEDENDTAG",
+    "code": 14061,
+    "msg": "Manifest Parse Error : End element was missing the character &#39;&gt;&#39;."
+  },
+  {
+    "title": "ERROR_SXS_XML_E_UNCLOSEDSTRING",
+    "code": 14062,
+    "msg": "Manifest Parse Error : A string literal was not closed."
+  },
+  {
+    "title": "ERROR_SXS_XML_E_UNCLOSEDCOMMENT",
+    "code": 14063,
+    "msg": "Manifest Parse Error : A comment was not closed."
+  },
+  {
+    "title": "ERROR_SXS_XML_E_UNCLOSEDDECL",
+    "code": 14064,
+    "msg": "Manifest Parse Error : A declaration was not closed."
+  },
+  {
+    "title": "ERROR_SXS_XML_E_UNCLOSEDCDATA",
+    "code": 14065,
+    "msg": "Manifest Parse Error : A CDATA section was not closed."
+  },
+  {
+    "title": "ERROR_SXS_XML_E_RESERVEDNAMESPACE",
+    "code": 14066,
+    "msg": "Manifest Parse Error : The namespace prefix is not allowed to start with the reserved string &#34;xml&#34;."
+  },
+  {
+    "title": "ERROR_SXS_XML_E_INVALIDENCODING",
+    "code": 14067,
+    "msg": "Manifest Parse Error : System does not support the specified encoding."
+  },
+  {
+    "title": "ERROR_SXS_XML_E_INVALIDSWITCH",
+    "code": 14068,
+    "msg": "Manifest Parse Error : Switch from current encoding to specified encoding not supported."
+  },
+  {
+    "title": "ERROR_SXS_XML_E_BADXMLCASE",
+    "code": 14069,
+    "msg": "Manifest Parse Error : The name &#39;xml&#39; is reserved and must be lower case."
+  },
+  {
+    "title": "ERROR_SXS_XML_E_INVALID_STANDALONE",
+    "code": 14070,
+    "msg": "Manifest Parse Error : The standalone attribute must have the value &#39;yes&#39; or &#39;no&#39;."
+  },
+  {
+    "title": "ERROR_SXS_XML_E_UNEXPECTED_STANDALONE",
+    "code": 14071,
+    "msg": "Manifest Parse Error : The standalone attribute cannot be used in external entities."
+  },
+  {
+    "title": "ERROR_SXS_XML_E_INVALID_VERSION",
+    "code": 14072,
+    "msg": "Manifest Parse Error : Invalid version number."
+  },
+  {
+    "title": "ERROR_SXS_XML_E_MISSINGEQUALS",
+    "code": 14073,
+    "msg": "Manifest Parse Error : Missing equals sign between attribute and attribute value."
+  },
+  {
+    "title": "ERROR_SXS_PROTECTION_RECOVERY_FAILED",
+    "code": 14074,
+    "msg": "Assembly Protection Error : Unable to recover the specified assembly."
+  },
+  {
+    "title": "ERROR_SXS_PROTECTION_PUBLIC_KEY_TOO_SHORT",
+    "code": 14075,
+    "msg": "Assembly Protection Error : The public key for an assembly was too short to be allowed."
+  },
+  {
+    "title": "ERROR_SXS_PROTECTION_CATALOG_NOT_VALID",
+    "code": 14076,
+    "msg": "Assembly Protection Error : The catalog for an assembly is not valid, or does not match the assembly&#39;s manifest."
+  },
+  {
+    "title": "ERROR_SXS_UNTRANSLATABLE_HRESULT",
+    "code": 14077,
+    "msg": "An HRESULT could not be translated to a corresponding Win32 error code."
+  },
+  {
+    "title": "ERROR_SXS_PROTECTION_CATALOG_FILE_MISSING",
+    "code": 14078,
+    "msg": "Assembly Protection Error : The catalog for an assembly is missing."
+  },
+  {
+    "title": "ERROR_SXS_MISSING_ASSEMBLY_IDENTITY_ATTRIBUTE",
+    "code": 14079,
+    "msg": "The supplied assembly identity is missing one or more attributes which must be present in this context."
+  },
+  {
+    "title": "ERROR_SXS_INVALID_ASSEMBLY_IDENTITY_ATTRIBUTE_NAME",
+    "code": 14080,
+    "msg": "The supplied assembly identity has one or more attribute names that contain characters not permitted in XML names."
+  },
+  {
+    "title": "ERROR_SXS_ASSEMBLY_MISSING",
+    "code": 14081,
+    "msg": "The referenced assembly could not be found."
+  },
+  {
+    "title": "ERROR_SXS_CORRUPT_ACTIVATION_STACK",
+    "code": 14082,
+    "msg": "The activation context activation stack for the running thread of execution is corrupt."
+  },
+  {
+    "title": "ERROR_SXS_CORRUPTION",
+    "code": 14083,
+    "msg": "The application isolation metadata for this process or thread has become corrupt."
+  },
+  {
+    "title": "ERROR_SXS_EARLY_DEACTIVATION",
+    "code": 14084,
+    "msg": "The activation context being deactivated is not the most recently activated one."
+  },
+  {
+    "title": "ERROR_SXS_INVALID_DEACTIVATION",
+    "code": 14085,
+    "msg": "The activation context being deactivated is not active for the current thread of execution."
+  },
+  {
+    "title": "ERROR_SXS_MULTIPLE_DEACTIVATION",
+    "code": 14086,
+    "msg": "The activation context being deactivated has already been deactivated."
+  },
+  {
+    "title": "ERROR_SXS_PROCESS_TERMINATION_REQUESTED",
+    "code": 14087,
+    "msg": "A component used by the isolation facility has requested to terminate the process."
+  },
+  {
+    "title": "ERROR_SXS_RELEASE_ACTIVATION_CONTEXT",
+    "code": 14088,
+    "msg": "A kernel mode component is releasing a reference on an activation context."
+  },
+  {
+    "title": "ERROR_SXS_SYSTEM_DEFAULT_ACTIVATION_CONTEXT_EMPTY",
+    "code": 14089,
+    "msg": "The activation context of system default assembly could not be generated."
+  },
+  {
+    "title": "ERROR_SXS_INVALID_IDENTITY_ATTRIBUTE_VALUE",
+    "code": 14090,
+    "msg": "The value of an attribute in an identity is not within the legal range."
+  },
+  {
+    "title": "ERROR_SXS_INVALID_IDENTITY_ATTRIBUTE_NAME",
+    "code": 14091,
+    "msg": "The name of an attribute in an identity is not within the legal range."
+  },
+  {
+    "title": "ERROR_SXS_IDENTITY_DUPLICATE_ATTRIBUTE",
+    "code": 14092,
+    "msg": "An identity contains two definitions for the same attribute."
+  },
+  {
+    "title": "ERROR_SXS_IDENTITY_PARSE_ERROR",
+    "code": 14093,
+    "msg": "The identity string is malformed. This may be due to a trailing comma, more than two unnamed attributes, missing attribute name or missing attribute value."
+  },
+  {
+    "title": "ERROR_MALFORMED_SUBSTITUTION_STRING",
+    "code": 14094,
+    "msg": "A string containing localized substitutable content was malformed. Either a dollar sign ($) was followed by something other than a left parenthesis or another dollar sign or an substitution&#39;s right parenthesis was not found."
+  },
+  {
+    "title": "ERROR_SXS_INCORRECT_PUBLIC_KEY_TOKEN",
+    "code": 14095,
+    "msg": "The public key token does not correspond to the public key specified."
+  },
+  {
+    "title": "ERROR_UNMAPPED_SUBSTITUTION_STRING",
+    "code": 14096,
+    "msg": "A substitution string had no mapping."
+  },
+  {
+    "title": "ERROR_SXS_ASSEMBLY_NOT_LOCKED",
+    "code": 14097,
+    "msg": "The component must be locked before making the request."
+  },
+  {
+    "title": "ERROR_SXS_COMPONENT_STORE_CORRUPT",
+    "code": 14098,
+    "msg": "The component store has been corrupted."
+  },
+  {
+    "title": "ERROR_ADVANCED_INSTALLER_FAILED",
+    "code": 14099,
+    "msg": "An advanced installer failed during setup or servicing."
+  },
+  {
+    "title": "ERROR_XML_ENCODING_MISMATCH",
+    "code": 14100,
+    "msg": "The character encoding in the XML declaration did not match the encoding used in the document."
+  },
+  {
+    "title": "ERROR_SXS_MANIFEST_IDENTITY_SAME_BUT_CONTENTS_DIFFERENT",
+    "code": 14101,
+    "msg": "The identities of the manifests are identical but their contents are different."
+  },
+  {
+    "title": "ERROR_SXS_IDENTITIES_DIFFERENT",
+    "code": 14102,
+    "msg": "The component identities are different."
+  },
+  {
+    "title": "ERROR_SXS_ASSEMBLY_IS_NOT_A_DEPLOYMENT",
+    "code": 14103,
+    "msg": "The assembly is not a deployment."
+  },
+  {
+    "title": "ERROR_SXS_FILE_NOT_PART_OF_ASSEMBLY",
+    "code": 14104,
+    "msg": "The file is not a part of the assembly."
+  },
+  {
+    "title": "ERROR_SXS_MANIFEST_TOO_BIG",
+    "code": 14105,
+    "msg": "The size of the manifest exceeds the maximum allowed."
+  },
+  {
+    "title": "ERROR_SXS_SETTING_NOT_REGISTERED",
+    "code": 14106,
+    "msg": "The setting is not registered."
+  },
+  {
+    "title": "ERROR_SXS_TRANSACTION_CLOSURE_INCOMPLETE",
+    "code": 14107,
+    "msg": "One or more required members of the transaction are not present."
+  },
+  {
+    "title": "ERROR_SMI_PRIMITIVE_INSTALLER_FAILED",
+    "code": 14108,
+    "msg": "The SMI primitive installer failed during setup or servicing."
+  },
+  {
+    "title": "ERROR_GENERIC_COMMAND_FAILED",
+    "code": 14109,
+    "msg": "A generic command executable returned a result that indicates failure."
+  },
+  {
+    "title": "ERROR_SXS_FILE_HASH_MISSING",
+    "code": 14110,
+    "msg": "A component is missing file verification information in its manifest."
+  },
+  {
+    "title": "ERROR_EVT_INVALID_CHANNEL_PATH",
+    "code": 15000,
+    "msg": "The specified channel path is invalid."
+  },
+  {
+    "title": "ERROR_EVT_INVALID_QUERY",
+    "code": 15001,
+    "msg": "The specified query is invalid."
+  },
+  {
+    "title": "ERROR_EVT_PUBLISHER_METADATA_NOT_FOUND",
+    "code": 15002,
+    "msg": "The publisher metadata cannot be found in the resource."
+  },
+  {
+    "title": "ERROR_EVT_EVENT_TEMPLATE_NOT_FOUND",
+    "code": 15003,
+    "msg": "The template for an event definition cannot be found in the resource (error = %1)."
+  },
+  {
+    "title": "ERROR_EVT_INVALID_PUBLISHER_NAME",
+    "code": 15004,
+    "msg": "The specified publisher name is invalid."
+  },
+  {
+    "title": "ERROR_EVT_INVALID_EVENT_DATA",
+    "code": 15005,
+    "msg": "The event data raised by the publisher is not compatible with the event template definition in the publisher&#39;s manifest."
+  },
+  {
+    "title": "ERROR_EVT_CHANNEL_NOT_FOUND",
+    "code": 15007,
+    "msg": "The specified channel could not be found. Check channel configuration."
+  },
+  {
+    "title": "ERROR_EVT_MALFORMED_XML_TEXT",
+    "code": 15008,
+    "msg": "The specified xml text was not well-formed. See Extended Error for more details."
+  },
+  {
+    "title": "ERROR_EVT_SUBSCRIPTION_TO_DIRECT_CHANNEL",
+    "code": 15009,
+    "msg": "The caller is trying to subscribe to a direct channel which is not allowed. The events for a direct channel go directly to a logfile and cannot be subscribed to."
+  },
+  {
+    "title": "ERROR_EVT_CONFIGURATION_ERROR",
+    "code": 15010,
+    "msg": "Configuration error."
+  },
+  {
+    "title": "ERROR_EVT_QUERY_RESULT_STALE",
+    "code": 15011,
+    "msg": "The query result is stale / invalid. This may be due to the log being cleared or rolling over after the query result was created. Users should handle this code by releasing the query result object and reissuing the query."
+  },
+  {
+    "title": "ERROR_EVT_QUERY_RESULT_INVALID_POSITION",
+    "code": 15012,
+    "msg": "Query result is currently at an invalid position."
+  },
+  {
+    "title": "ERROR_EVT_NON_VALIDATING_MSXML",
+    "code": 15013,
+    "msg": "Registered MSXML doesn&#39;t support validation."
+  },
+  {
+    "title": "ERROR_EVT_FILTER_ALREADYSCOPED",
+    "code": 15014,
+    "msg": "An expression can only be followed by a change of scope operation if it itself evaluates to a node set and is not already part of some other change of scope operation."
+  },
+  {
+    "title": "ERROR_EVT_FILTER_NOTELTSET",
+    "code": 15015,
+    "msg": "Can&#39;t perform a step operation from a term that does not represent an element set."
+  },
+  {
+    "title": "ERROR_EVT_FILTER_INVARG",
+    "code": 15016,
+    "msg": "Left hand side arguments to binary operators must be either attributes, nodes or variables and right hand side arguments must be constants."
+  },
+  {
+    "title": "ERROR_EVT_FILTER_INVTEST",
+    "code": 15017,
+    "msg": "A step operation must involve either a node test or, in the case of a predicate, an algebraic expression against which to test each node in the node set identified by the preceeding node set can be evaluated."
+  },
+  {
+    "title": "ERROR_EVT_FILTER_INVTYPE",
+    "code": 15018,
+    "msg": "This data type is currently unsupported."
+  },
+  {
+    "title": "ERROR_EVT_FILTER_PARSEERR",
+    "code": 15019,
+    "msg": "A syntax error occurred at position %1!d!."
+  },
+  {
+    "title": "ERROR_EVT_FILTER_UNSUPPORTEDOP",
+    "code": 15020,
+    "msg": "This operator is unsupported by this implementation of the filter."
+  },
+  {
+    "title": "ERROR_EVT_FILTER_UNEXPECTEDTOKEN",
+    "code": 15021,
+    "msg": "The token encountered was unexpected."
+  },
+  {
+    "title": "ERROR_EVT_INVALID_OPERATION_OVER_ENABLED_DIRECT_CHANNEL",
+    "code": 15022,
+    "msg": "The requested operation cannot be performed over an enabled direct channel. The channel must first be disabled before performing the requested operation."
+  },
+  {
+    "title": "ERROR_EVT_INVALID_CHANNEL_PROPERTY_VALUE",
+    "code": 15023,
+    "msg": "Channel property %1!s! contains invalid value. The value has invalid type, is outside of valid range, can&#39;t be updated or is not supported by this type of channel."
+  },
+  {
+    "title": "ERROR_EVT_INVALID_PUBLISHER_PROPERTY_VALUE",
+    "code": 15024,
+    "msg": "Publisher property %1!s! contains invalid value. The value has invalid type, is outside of valid range, can&#39;t be updated or is not supported by this type of publisher."
+  },
+  {
+    "title": "ERROR_EVT_CHANNEL_CANNOT_ACTIVATE",
+    "code": 15025,
+    "msg": "The channel fails to activate."
+  },
+  {
+    "title": "ERROR_EVT_FILTER_TOO_COMPLEX",
+    "code": 15026,
+    "msg": "The xpath expression exceeded supported complexity. Please symplify it or split it into two or more simple expressions."
+  },
+  {
+    "title": "ERROR_EVT_MESSAGE_NOT_FOUND",
+    "code": 15027,
+    "msg": "the message resource is present but the message is not found in the string/message table."
+  },
+  {
+    "title": "ERROR_EVT_MESSAGE_ID_NOT_FOUND",
+    "code": 15028,
+    "msg": "The message id for the desired message could not be found."
+  },
+  {
+    "title": "ERROR_EVT_UNRESOLVED_VALUE_INSERT",
+    "code": 15029,
+    "msg": "The substitution string for insert index (%1) could not be found."
+  },
+  {
+    "title": "ERROR_EVT_UNRESOLVED_PARAMETER_INSERT",
+    "code": 15030,
+    "msg": "The description string for parameter reference (%1) could not be found."
+  },
+  {
+    "title": "ERROR_EVT_MAX_INSERTS_REACHED",
+    "code": 15031,
+    "msg": "The maximum number of replacements has been reached."
+  },
+  {
+    "title": "ERROR_EVT_EVENT_DEFINITION_NOT_FOUND",
+    "code": 15032,
+    "msg": "The event definition could not be found for event id (%1)."
+  },
+  {
+    "title": "ERROR_EVT_MESSAGE_LOCALE_NOT_FOUND",
+    "code": 15033,
+    "msg": "The locale specific resource for the desired message is not present."
+  },
+  {
+    "title": "ERROR_EVT_VERSION_TOO_OLD",
+    "code": 15034,
+    "msg": "The resource is too old to be compatible."
+  },
+  {
+    "title": "ERROR_EVT_VERSION_TOO_NEW",
+    "code": 15035,
+    "msg": "The resource is too new to be compatible."
+  },
+  {
+    "title": "ERROR_EVT_CANNOT_OPEN_CHANNEL_OF_QUERY",
+    "code": 15036,
+    "msg": "The channel at index %1!d! of the query can&#39;t be opened."
+  },
+  {
+    "title": "ERROR_EVT_PUBLISHER_DISABLED",
+    "code": 15037,
+    "msg": "The publisher has been disabled and its resource is not available. This usually occurs when the publisher is in the process of being uninstalled or upgraded."
+  },
+  {
+    "title": "ERROR_EVT_FILTER_OUT_OF_RANGE",
+    "code": 15038,
+    "msg": "Attempted to create a numeric type that is outside of its valid range."
+  },
+  {
+    "title": "ERROR_EC_SUBSCRIPTION_CANNOT_ACTIVATE",
+    "code": 15080,
+    "msg": "The subscription fails to activate."
+  },
+  {
+    "title": "ERROR_EC_LOG_DISABLED",
+    "code": 15081,
+    "msg": "The log of the subscription is in disabled state, and can not be used to forward events to. The log must first be enabled before the subscription can be activated."
+  },
+  {
+    "title": "ERROR_EC_CIRCULAR_FORWARDING",
+    "code": 15082,
+    "msg": "When forwarding events from local machine to itself, the query of the subscription can&#39;t contain target log of the subscription."
+  },
+  {
+    "title": "ERROR_EC_CREDSTORE_FULL",
+    "code": 15083,
+    "msg": "The credential store that is used to save credentials is full."
+  },
+  {
+    "title": "ERROR_EC_CRED_NOT_FOUND",
+    "code": 15084,
+    "msg": "The credential used by this subscription can&#39;t be found in credential store."
+  },
+  {
+    "title": "ERROR_EC_NO_ACTIVE_CHANNEL",
+    "code": 15085,
+    "msg": "No active channel is found for the query."
+  },
+  {
+    "title": "ERROR_MUI_FILE_NOT_FOUND",
+    "code": 15100,
+    "msg": "The resource loader failed to find MUI file."
+  },
+  {
+    "title": "ERROR_MUI_INVALID_FILE",
+    "code": 15101,
+    "msg": "The resource loader failed to load MUI file because the file fail to pass validation."
+  },
+  {
+    "title": "ERROR_MUI_INVALID_RC_CONFIG",
+    "code": 15102,
+    "msg": "The RC Manifest is corrupted with garbage data or unsupported version or missing required item."
+  },
+  {
+    "title": "ERROR_MUI_INVALID_LOCALE_NAME",
+    "code": 15103,
+    "msg": "The RC Manifest has invalid culture name."
+  },
+  {
+    "title": "ERROR_MUI_INVALID_ULTIMATEFALLBACK_NAME",
+    "code": 15104,
+    "msg": "The RC Manifest has invalid ultimatefallback name."
+  },
+  {
+    "title": "ERROR_MUI_FILE_NOT_LOADED",
+    "code": 15105,
+    "msg": "The resource loader cache doesn&#39;t have loaded MUI entry."
+  },
+  {
+    "title": "ERROR_RESOURCE_ENUM_USER_STOP",
+    "code": 15106,
+    "msg": "User stopped resource enumeration."
+  },
+  {
+    "title": "ERROR_MUI_INTLSETTINGS_UILANG_NOT_INSTALLED",
+    "code": 15107,
+    "msg": "UI language installation failed."
+  },
+  {
+    "title": "ERROR_MUI_INTLSETTINGS_INVALID_LOCALE_NAME",
+    "code": 15108,
+    "msg": "Locale installation failed."
+  },
+  {
+    "title": "ERROR_MRM_RUNTIME_NO_DEFAULT_OR_NEUTRAL_RESOURCE",
+    "code": 15110,
+    "msg": "A resource does not have default or neutral value."
+  },
+  {
+    "title": "ERROR_MRM_INVALID_PRICONFIG",
+    "code": 15111,
+    "msg": "Invalid PRI config file."
+  },
+  {
+    "title": "ERROR_MRM_INVALID_FILE_TYPE",
+    "code": 15112,
+    "msg": "Invalid file type."
+  },
+  {
+    "title": "ERROR_MRM_UNKNOWN_QUALIFIER",
+    "code": 15113,
+    "msg": "Unknown qualifier."
+  },
+  {
+    "title": "ERROR_MRM_INVALID_QUALIFIER_VALUE",
+    "code": 15114,
+    "msg": "Invalid qualifier value."
+  },
+  {
+    "title": "ERROR_MRM_NO_CANDIDATE",
+    "code": 15115,
+    "msg": "No Candidate found."
+  },
+  {
+    "title": "ERROR_MRM_NO_MATCH_OR_DEFAULT_CANDIDATE",
+    "code": 15116,
+    "msg": "The ResourceMap or NamedResource has an item that does not have default or neutral resource.."
+  },
+  {
+    "title": "ERROR_MRM_RESOURCE_TYPE_MISMATCH",
+    "code": 15117,
+    "msg": "Invalid ResourceCandidate type."
+  },
+  {
+    "title": "ERROR_MRM_DUPLICATE_MAP_NAME",
+    "code": 15118,
+    "msg": "Duplicate Resource Map."
+  },
+  {
+    "title": "ERROR_MRM_DUPLICATE_ENTRY",
+    "code": 15119,
+    "msg": "Duplicate Entry."
+  },
+  {
+    "title": "ERROR_MRM_INVALID_RESOURCE_IDENTIFIER",
+    "code": 15120,
+    "msg": "Invalid Resource Identifier."
+  },
+  {
+    "title": "ERROR_MRM_FILEPATH_TOO_LONG",
+    "code": 15121,
+    "msg": "Filepath too long."
+  },
+  {
+    "title": "ERROR_MRM_UNSUPPORTED_DIRECTORY_TYPE",
+    "code": 15122,
+    "msg": "Unsupported directory type."
+  },
+  {
+    "title": "ERROR_MRM_INVALID_PRI_FILE",
+    "code": 15126,
+    "msg": "Invalid PRI File."
+  },
+  {
+    "title": "ERROR_MRM_NAMED_RESOURCE_NOT_FOUND",
+    "code": 15127,
+    "msg": "NamedResource Not Found."
+  },
+  {
+    "title": "ERROR_MRM_MAP_NOT_FOUND",
+    "code": 15135,
+    "msg": "ResourceMap Not Found."
+  },
+  {
+    "title": "ERROR_MRM_UNSUPPORTED_PROFILE_TYPE",
+    "code": 15136,
+    "msg": "Unsupported MRT profile type."
+  },
+  {
+    "title": "ERROR_MRM_INVALID_QUALIFIER_OPERATOR",
+    "code": 15137,
+    "msg": "Invalid qualifier operator."
+  },
+  {
+    "title": "ERROR_MRM_INDETERMINATE_QUALIFIER_VALUE",
+    "code": 15138,
+    "msg": "Unable to determine qualifier value or qualifier value has not been set."
+  },
+  {
+    "title": "ERROR_MRM_AUTOMERGE_ENABLED",
+    "code": 15139,
+    "msg": "Automerge is enabled in the PRI file."
+  },
+  {
+    "title": "ERROR_MRM_TOO_MANY_RESOURCES",
+    "code": 15140,
+    "msg": "Too many resources defined for package."
+  },
+  {
+    "title": "ERROR_MCA_INVALID_CAPABILITIES_STRING",
+    "code": 15200,
+    "msg": "The monitor returned a DDC/CI capabilities string that did not comply with the ACCESS.bus 3.0, DDC/CI 1.1 or MCCS 2 Revision 1 specification."
+  },
+  {
+    "title": "ERROR_MCA_INVALID_VCP_VERSION",
+    "code": 15201,
+    "msg": "The monitor&#39;s VCP Version (0xDF) VCP code returned an invalid version value."
+  },
+  {
+    "title": "ERROR_MCA_MONITOR_VIOLATES_MCCS_SPECIFICATION",
+    "code": 15202,
+    "msg": "The monitor does not comply with the MCCS specification it claims to support."
+  },
+  {
+    "title": "ERROR_MCA_MCCS_VERSION_MISMATCH",
+    "code": 15203,
+    "msg": "The MCCS version in a monitor&#39;s mccs_ver capability does not match the MCCS version the monitor reports when the VCP Version (0xDF) VCP code is used."
+  },
+  {
+    "title": "ERROR_MCA_UNSUPPORTED_MCCS_VERSION",
+    "code": 15204,
+    "msg": "The Monitor Configuration API only works with monitors that support the MCCS 1.0 specification, MCCS 2.0 specification or the MCCS 2.0 Revision 1 specification."
+  },
+  {
+    "title": "ERROR_MCA_INTERNAL_ERROR",
+    "code": 15205,
+    "msg": "An internal Monitor Configuration API error occurred."
+  },
+  {
+    "title": "ERROR_MCA_INVALID_TECHNOLOGY_TYPE_RETURNED",
+    "code": 15206,
+    "msg": "The monitor returned an invalid monitor technology type. CRT, Plasma and LCD (TFT) are examples of monitor technology types. This error implies that the monitor violated the MCCS 2.0 or MCCS 2.0 Revision 1 specification."
+  },
+  {
+    "title": "ERROR_MCA_UNSUPPORTED_COLOR_TEMPERATURE",
+    "code": 15207,
+    "msg": "The caller of specified a color temperature that the current monitor did not support. This error implies that the monitor violated the MCCS 2.0 or MCCS 2.0 Revision 1 specification."
+  },
+  {
+    "title": "ERROR_AMBIGUOUS_SYSTEM_DEVICE",
+    "code": 15250,
+    "msg": "The requested system device cannot be identified due to multiple indistinguishable devices potentially matching the identification criteria."
+  },
+  {
+    "title": "ERROR_SYSTEM_DEVICE_NOT_FOUND",
+    "code": 15299,
+    "msg": "The requested system device cannot be found."
+  },
+  {
+    "title": "ERROR_HASH_NOT_SUPPORTED",
+    "code": 15300,
+    "msg": "Hash generation for the specified hash version and hash type is not enabled on the server."
+  },
+  {
+    "title": "ERROR_HASH_NOT_PRESENT",
+    "code": 15301,
+    "msg": "The hash requested from the server is not available or no longer valid."
+  },
+  {
+    "title": "ERROR_SECONDARY_IC_PROVIDER_NOT_REGISTERED",
+    "code": 15321,
+    "msg": "The secondary interrupt controller instance that manages the specified interrupt is not registered."
+  },
+  {
+    "title": "ERROR_GPIO_CLIENT_INFORMATION_INVALID",
+    "code": 15322,
+    "msg": "The information supplied by the GPIO client driver is invalid."
+  },
+  {
+    "title": "ERROR_GPIO_VERSION_NOT_SUPPORTED",
+    "code": 15323,
+    "msg": "The version specified by the GPIO client driver is not supported."
+  },
+  {
+    "title": "ERROR_GPIO_INVALID_REGISTRATION_PACKET",
+    "code": 15324,
+    "msg": "The registration packet supplied by the GPIO client driver is not valid."
+  },
+  {
+    "title": "ERROR_GPIO_OPERATION_DENIED",
+    "code": 15325,
+    "msg": "The requested operation is not supported for the specified handle."
+  },
+  {
+    "title": "ERROR_GPIO_INCOMPATIBLE_CONNECT_MODE",
+    "code": 15326,
+    "msg": "The requested connect mode conflicts with an existing mode on one or more of the specified pins."
+  },
+  {
+    "title": "ERROR_GPIO_INTERRUPT_ALREADY_UNMASKED",
+    "code": 15327,
+    "msg": "The interrupt requested to be unmasked is not masked."
+  },
+  {
+    "title": "ERROR_CANNOT_SWITCH_RUNLEVEL",
+    "code": 15400,
+    "msg": "The requested run level switch cannot be completed successfully."
+  },
+  {
+    "title": "ERROR_INVALID_RUNLEVEL_SETTING",
+    "code": 15401,
+    "msg": "The service has an invalid run level setting. The run level for a service must not be higher than the run level of its dependent services."
+  },
+  {
+    "title": "ERROR_RUNLEVEL_SWITCH_TIMEOUT",
+    "code": 15402,
+    "msg": "The requested run level switch cannot be completed successfully since one or more services will not stop or restart within the specified timeout."
+  },
+  {
+    "title": "ERROR_RUNLEVEL_SWITCH_AGENT_TIMEOUT",
+    "code": 15403,
+    "msg": "A run level switch agent did not respond within the specified timeout."
+  },
+  {
+    "title": "ERROR_RUNLEVEL_SWITCH_IN_PROGRESS",
+    "code": 15404,
+    "msg": "A run level switch is currently in progress."
+  },
+  {
+    "title": "ERROR_SERVICES_FAILED_AUTOSTART",
+    "code": 15405,
+    "msg": "One or more services failed to start during the service startup phase of a run level switch."
+  },
+  {
+    "title": "ERROR_COM_TASK_STOP_PENDING",
+    "code": 15501,
+    "msg": "The task stop request cannot be completed immediately since task needs more time to shutdown."
+  },
+  {
+    "title": "ERROR_INSTALL_OPEN_PACKAGE_FAILED",
+    "code": 15600,
+    "msg": "Package could not be opened."
+  },
+  {
+    "title": "ERROR_INSTALL_PACKAGE_NOT_FOUND",
+    "code": 15601,
+    "msg": "Package was not found."
+  },
+  {
+    "title": "ERROR_INSTALL_INVALID_PACKAGE",
+    "code": 15602,
+    "msg": "Package data is invalid."
+  },
+  {
+    "title": "ERROR_INSTALL_RESOLVE_DEPENDENCY_FAILED",
+    "code": 15603,
+    "msg": "Package failed updates, dependency or conflict validation."
+  },
+  {
+    "title": "ERROR_INSTALL_OUT_OF_DISK_SPACE",
+    "code": 15604,
+    "msg": "There is not enough disk space on your computer. Please free up some space and try again."
+  },
+  {
+    "title": "ERROR_INSTALL_NETWORK_FAILURE",
+    "code": 15605,
+    "msg": "There was a problem downloading your product."
+  },
+  {
+    "title": "ERROR_INSTALL_REGISTRATION_FAILURE",
+    "code": 15606,
+    "msg": "Package could not be registered."
+  },
+  {
+    "title": "ERROR_INSTALL_DEREGISTRATION_FAILURE",
+    "code": 15607,
+    "msg": "Package could not be unregistered."
+  },
+  {
+    "title": "ERROR_INSTALL_CANCEL",
+    "code": 15608,
+    "msg": "User cancelled the install request."
+  },
+  {
+    "title": "ERROR_INSTALL_FAILED",
+    "code": 15609,
+    "msg": "Install failed. Please contact your software vendor."
+  },
+  {
+    "title": "ERROR_REMOVE_FAILED",
+    "code": 15610,
+    "msg": "Removal failed. Please contact your software vendor."
+  },
+  {
+    "title": "ERROR_PACKAGE_ALREADY_EXISTS",
+    "code": 15611,
+    "msg": "The provided package is already installed, and reinstallation of the package was blocked. Check the AppXDeployment-Server event log for details."
+  },
+  {
+    "title": "ERROR_NEEDS_REMEDIATION",
+    "code": 15612,
+    "msg": "The application cannot be started. Try reinstalling the application to fix the problem."
+  },
+  {
+    "title": "ERROR_INSTALL_PREREQUISITE_FAILED",
+    "code": 15613,
+    "msg": "A Prerequisite for an install could not be satisfied."
+  },
+  {
+    "title": "ERROR_PACKAGE_REPOSITORY_CORRUPTED",
+    "code": 15614,
+    "msg": "The package repository is corrupted."
+  },
+  {
+    "title": "ERROR_INSTALL_POLICY_FAILURE",
+    "code": 15615,
+    "msg": "To install this application you need either a Windows developer license or a sideloading-enabled system."
+  },
+  {
+    "title": "ERROR_PACKAGE_UPDATING",
+    "code": 15616,
+    "msg": "The application cannot be started because it is currently updating."
+  },
+  {
+    "title": "ERROR_DEPLOYMENT_BLOCKED_BY_POLICY",
+    "code": 15617,
+    "msg": "The package deployment operation is blocked by policy. Please contact your system administrator."
+  },
+  {
+    "title": "ERROR_PACKAGES_IN_USE",
+    "code": 15618,
+    "msg": "The package could not be installed because resources it modifies are currently in use."
+  },
+  {
+    "title": "ERROR_RECOVERY_FILE_CORRUPT",
+    "code": 15619,
+    "msg": "The package could not be recovered because necessary data for recovery have been corrupted."
+  },
+  {
+    "title": "ERROR_INVALID_STAGED_SIGNATURE",
+    "code": 15620,
+    "msg": "The signature is invalid. To register in developer mode, AppxSignature.p7x and AppxBlockMap.xml must be valid or should not be present."
+  },
+  {
+    "title": "ERROR_DELETING_EXISTING_APPLICATIONDATA_STORE_FAILED",
+    "code": 15621,
+    "msg": "An error occurred while deleting the package&#39;s previously existing application data."
+  },
+  {
+    "title": "ERROR_INSTALL_PACKAGE_DOWNGRADE",
+    "code": 15622,
+    "msg": "The package could not be installed because a higher version of this package is already installed."
+  },
+  {
+    "title": "ERROR_SYSTEM_NEEDS_REMEDIATION",
+    "code": 15623,
+    "msg": "An error in a system binary was detected. Try refreshing the PC to fix the problem."
+  },
+  {
+    "title": "ERROR_APPX_INTEGRITY_FAILURE_CLR_NGEN",
+    "code": 15624,
+    "msg": "A corrupted CLR NGEN binary was detected on the system."
+  },
+  {
+    "title": "ERROR_RESILIENCY_FILE_CORRUPT",
+    "code": 15625,
+    "msg": "The operation could not be resumed because necessary data for recovery have been corrupted."
+  },
+  {
+    "title": "ERROR_INSTALL_FIREWALL_SERVICE_NOT_RUNNING",
+    "code": 15626,
+    "msg": "The package could not be installed because the Windows Firewall service is not running. Enable the Windows Firewall service and try again."
+  },
+  {
+    "title": "APPMODEL_ERROR_NO_PACKAGE",
+    "code": 15700,
+    "msg": "The process has no package identity."
+  },
+  {
+    "title": "APPMODEL_ERROR_PACKAGE_RUNTIME_CORRUPT",
+    "code": 15701,
+    "msg": "The package runtime information is corrupted."
+  },
+  {
+    "title": "APPMODEL_ERROR_PACKAGE_IDENTITY_CORRUPT",
+    "code": 15702,
+    "msg": "The package identity is corrupted."
+  },
+  {
+    "title": "APPMODEL_ERROR_NO_APPLICATION",
+    "code": 15703,
+    "msg": "The process has no application identity."
+  },
+  {
+    "title": "ERROR_STATE_LOAD_STORE_FAILED",
+    "code": 15800,
+    "msg": "Loading the state store failed."
+  },
+  {
+    "title": "ERROR_STATE_GET_VERSION_FAILED",
+    "code": 15801,
+    "msg": "Retrieving the state version for the application failed."
+  },
+  {
+    "title": "ERROR_STATE_SET_VERSION_FAILED",
+    "code": 15802,
+    "msg": "Setting the state version for the application failed."
+  },
+  {
+    "title": "ERROR_STATE_STRUCTURED_RESET_FAILED",
+    "code": 15803,
+    "msg": "Resetting the structured state of the application failed."
+  },
+  {
+    "title": "ERROR_STATE_OPEN_CONTAINER_FAILED",
+    "code": 15804,
+    "msg": "State Manager failed to open the container."
+  },
+  {
+    "title": "ERROR_STATE_CREATE_CONTAINER_FAILED",
+    "code": 15805,
+    "msg": "State Manager failed to create the container."
+  },
+  {
+    "title": "ERROR_STATE_DELETE_CONTAINER_FAILED",
+    "code": 15806,
+    "msg": "State Manager failed to delete the container."
+  },
+  {
+    "title": "ERROR_STATE_READ_SETTING_FAILED",
+    "code": 15807,
+    "msg": "State Manager failed to read the setting."
+  },
+  {
+    "title": "ERROR_STATE_WRITE_SETTING_FAILED",
+    "code": 15808,
+    "msg": "State Manager failed to write the setting."
+  },
+  {
+    "title": "ERROR_STATE_DELETE_SETTING_FAILED",
+    "code": 15809,
+    "msg": "State Manager failed to delete the setting."
+  },
+  {
+    "title": "ERROR_STATE_QUERY_SETTING_FAILED",
+    "code": 15810,
+    "msg": "State Manager failed to query the setting."
+  },
+  {
+    "title": "ERROR_STATE_READ_COMPOSITE_SETTING_FAILED",
+    "code": 15811,
+    "msg": "State Manager failed to read the composite setting."
+  },
+  {
+    "title": "ERROR_STATE_WRITE_COMPOSITE_SETTING_FAILED",
+    "code": 15812,
+    "msg": "State Manager failed to write the composite setting."
+  },
+  {
+    "title": "ERROR_STATE_ENUMERATE_CONTAINER_FAILED",
+    "code": 15813,
+    "msg": "State Manager failed to enumerate the containers."
+  },
+  {
+    "title": "ERROR_STATE_ENUMERATE_SETTINGS_FAILED",
+    "code": 15814,
+    "msg": "State Manager failed to enumerate the settings."
+  },
+  {
+    "title": "ERROR_STATE_COMPOSITE_SETTING_VALUE_SIZE_LIMIT_EXCEEDED",
+    "code": 15815,
+    "msg": "The size of the state manager composite setting value has exceeded the limit."
+  },
+  {
+    "title": "ERROR_STATE_SETTING_VALUE_SIZE_LIMIT_EXCEEDED",
+    "code": 15816,
+    "msg": "The size of the state manager setting value has exceeded the limit."
+  },
+  {
+    "title": "ERROR_STATE_SETTING_NAME_SIZE_LIMIT_EXCEEDED",
+    "code": 15817,
+    "msg": "The length of the state manager setting name has exceeded the limit."
+  },
+  {
+    "title": "ERROR_STATE_CONTAINER_NAME_SIZE_LIMIT_EXCEEDED",
+    "code": 15818,
+    "msg": "The length of the state manager container name has exceeded the limit."
+  },
+  {
+    "title": "ERROR_API_UNAVAILABLE",
+    "code": 15841,
+    "msg": "This API cannot be used in the context of the caller&#39;s application type."
+  }
+]
