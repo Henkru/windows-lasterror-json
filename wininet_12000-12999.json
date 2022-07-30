@@ -1,0 +1,467 @@
+[
+  {
+    "title": "ERROR_FTP_DROPPED",
+    "code": 12111,
+    "msg": "The FTP operation was not completed because the session was aborted."
+  },
+  {
+    "title": "ERROR_FTP_NO_PASSIVE_MODE",
+    "code": 12112,
+    "msg": "Passive mode is not available on the server."
+  },
+  {
+    "title": "ERROR_FTP_TRANSFER_IN_PROGRESS",
+    "code": 12110,
+    "msg": "The requested operation cannot be made on the FTP session handle because an operation is already in progress."
+  },
+  {
+    "title": "ERROR_GOPHER_ATTRIBUTE_NOT_FOUND",
+    "code": 12137,
+    "msg": "The requested attribute could not be located.\n\n"
+  },
+  {
+    "title": "ERROR_GOPHER_DATA_ERROR",
+    "code": 12132,
+    "msg": "An error was detected while receiving data from the Gopher server.\n\n"
+  },
+  {
+    "title": "ERROR_GOPHER_END_OF_DATA",
+    "code": 12133,
+    "msg": "The end of the data has been reached.\n\n"
+  },
+  {
+    "title": "ERROR_GOPHER_INCORRECT_LOCATOR_TYPE",
+    "code": 12135,
+    "msg": "The type of the locator is not correct for this operation.\n\n"
+  },
+  {
+    "title": "ERROR_GOPHER_INVALID_LOCATOR",
+    "code": 12134,
+    "msg": "The supplied locator is not valid.\n\n"
+  },
+  {
+    "title": "ERROR_GOPHER_NOT_FILE",
+    "code": 12131,
+    "msg": "The request must be made for a file locator.\n\n"
+  },
+  {
+    "title": "ERROR_GOPHER_NOT_GOPHER_PLUS",
+    "code": 12136,
+    "msg": "The requested operation can be made only against a Gopher+ server, or with a locator that specifies a Gopher+ operation.\n\n"
+  },
+  {
+    "title": "ERROR_GOPHER_PROTOCOL_ERROR",
+    "code": 12130,
+    "msg": "An error was detected while parsing data returned from the Gopher server.\n\n"
+  },
+  {
+    "title": "ERROR_GOPHER_UNKNOWN_LOCATOR",
+    "code": 12138,
+    "msg": "The locator type is unknown.\n\n"
+  },
+  {
+    "title": "ERROR_HTTP_COOKIE_DECLINED",
+    "code": 12162,
+    "msg": "The HTTP cookie was declined by the server."
+  },
+  {
+    "title": "ERROR_HTTP_COOKIE_NEEDS_CONFIRMATION",
+    "code": 12161,
+    "msg": "The HTTP cookie requires confirmation.\n\n"
+  },
+  {
+    "title": "ERROR_HTTP_DOWNLEVEL_SERVER",
+    "code": 12151,
+    "msg": "The server did not return any headers."
+  },
+  {
+    "title": "ERROR_HTTP_HEADER_ALREADY_EXISTS",
+    "code": 12155,
+    "msg": "The header could not be added because it already exists."
+  },
+  {
+    "title": "ERROR_HTTP_HEADER_NOT_FOUND",
+    "code": 12150,
+    "msg": "The requested header could not be located."
+  },
+  {
+    "title": "ERROR_HTTP_INVALID_HEADER",
+    "code": 12153,
+    "msg": "The supplied header is invalid."
+  },
+  {
+    "title": "ERROR_HTTP_INVALID_QUERY_REQUEST",
+    "code": 12154,
+    "msg": "The request made to is invalid."
+  },
+  {
+    "title": "ERROR_HTTP_INVALID_SERVER_RESPONSE",
+    "code": 12152,
+    "msg": "The server response could not be parsed."
+  },
+  {
+    "title": "ERROR_HTTP_NOT_REDIRECTED",
+    "code": 12160,
+    "msg": "The HTTP request was not redirected."
+  },
+  {
+    "title": "ERROR_HTTP_REDIRECT_FAILED",
+    "code": 12156,
+    "msg": "The redirection failed because either the scheme changed (for example, HTTP to FTP) or all attempts made to redirect failed (default is five attempts)."
+  },
+  {
+    "title": "ERROR_HTTP_REDIRECT_NEEDS_CONFIRMATION",
+    "code": 12168,
+    "msg": "The redirection requires user confirmation."
+  },
+  {
+    "title": "ERROR_INTERNET_ASYNC_THREAD_FAILED",
+    "code": 12047,
+    "msg": "The application could not start an asynchronous thread."
+  },
+  {
+    "title": "ERROR_INTERNET_BAD_AUTO_PROXY_SCRIPT",
+    "code": 12166,
+    "msg": "There was an error in the automatic proxy configuration script."
+  },
+  {
+    "title": "ERROR_INTERNET_BAD_OPTION_LENGTH",
+    "code": 12010,
+    "msg": "The length of an option supplied to or is incorrect for the type of option specified."
+  },
+  {
+    "title": "ERROR_INTERNET_BAD_REGISTRY_PARAMETER",
+    "code": 12022,
+    "msg": "A required registry value was located but is an incorrect type or has an invalid value."
+  },
+  {
+    "title": "ERROR_INTERNET_CANNOT_CONNECT",
+    "code": 12029,
+    "msg": "The attempt to connect to the server failed."
+  },
+  {
+    "title": "ERROR_INTERNET_CHG_POST_IS_NON_SECURE",
+    "code": 12042,
+    "msg": "The application is posting and attempting to change multiple lines of text on a server that is not secure."
+  },
+  {
+    "title": "ERROR_INTERNET_CLIENT_AUTH_CERT_NEEDED",
+    "code": 12044,
+    "msg": "The server is requesting client authentication."
+  },
+  {
+    "title": "ERROR_INTERNET_CLIENT_AUTH_NOT_SETUP",
+    "code": 12046,
+    "msg": "Client authorization is not set up on this computer."
+  },
+  {
+    "title": "ERROR_INTERNET_CONNECTION_ABORTED",
+    "code": 12030,
+    "msg": "The connection with the server has been terminated."
+  },
+  {
+    "title": "ERROR_INTERNET_CONNECTION_RESET",
+    "code": 12031,
+    "msg": "The connection with the server has been reset."
+  },
+  {
+    "title": "ERROR_INTERNET_DECODING_FAILED",
+    "code": 12175,
+    "msg": "WinINet failed to perform content decoding on the response. For more information, see the topic."
+  },
+  {
+    "title": "ERROR_INTERNET_DIALOG_PENDING",
+    "code": 12049,
+    "msg": "Another thread has a password dialog box in progress."
+  },
+  {
+    "title": "ERROR_INTERNET_DISCONNECTED",
+    "code": 12163,
+    "msg": "The Internet connection has been lost."
+  },
+  {
+    "title": "ERROR_INTERNET_EXTENDED_ERROR",
+    "code": 12003,
+    "msg": "An extended error was returned from the server. This is typically a string or buffer containing a verbose error message. Call to retrieve the error text."
+  },
+  {
+    "title": "ERROR_INTERNET_FAILED_DUETOSECURITYCHECK",
+    "code": 12171,
+    "msg": "The function failed due to a security check."
+  },
+  {
+    "title": "ERROR_INTERNET_FORCE_RETRY",
+    "code": 12032,
+    "msg": "The function needs to redo the request."
+  },
+  {
+    "title": "ERROR_INTERNET_FORTEZZA_LOGIN_NEEDED",
+    "code": 12054,
+    "msg": "The requested resource requires Fortezza authentication."
+  },
+  {
+    "title": "ERROR_INTERNET_HANDLE_EXISTS",
+    "code": 12036,
+    "msg": "The request failed because the handle already exists."
+  },
+  {
+    "title": "ERROR_INTERNET_HTTP_TO_HTTPS_ON_REDIR",
+    "code": 12039,
+    "msg": "The application is moving from a non-SSL to an SSL connection because of a redirect."
+  },
+  {
+    "title": "ERROR_INTERNET_HTTPS_HTTP_SUBMIT_REDIR",
+    "code": 12052,
+    "msg": "The data being submitted to an SSL connection is being redirected to a non-SSL connection."
+  },
+  {
+    "title": "ERROR_INTERNET_HTTPS_TO_HTTP_ON_REDIR",
+    "code": 12040,
+    "msg": "The application is moving from an SSL to an non-SSL connection because of a redirect."
+  },
+  {
+    "title": "ERROR_INTERNET_INCORRECT_FORMAT",
+    "code": 12027,
+    "msg": "The format of the request is invalid."
+  },
+  {
+    "title": "ERROR_INTERNET_INCORRECT_HANDLE_STATE",
+    "code": 12019,
+    "msg": "The requested operation cannot be carried out because the handle supplied is not in the correct state."
+  },
+  {
+    "title": "ERROR_INTERNET_INCORRECT_HANDLE_TYPE",
+    "code": 12018,
+    "msg": "The type of handle supplied is incorrect for this operation."
+  },
+  {
+    "title": "ERROR_INTERNET_INCORRECT_PASSWORD",
+    "code": 12014,
+    "msg": "The request to connect and log on to an FTP server could not be completed because the supplied password is incorrect."
+  },
+  {
+    "title": "ERROR_INTERNET_INCORRECT_USER_NAME",
+    "code": 12013,
+    "msg": "The request to connect and log on to an FTP server could not be completed because the supplied user name is incorrect."
+  },
+  {
+    "title": "ERROR_INTERNET_INSERT_CDROM",
+    "code": 12053,
+    "msg": "The request requires a CD-ROM to be inserted in the CD-ROM drive to locate the resource requested.\n\n"
+  },
+  {
+    "title": "ERROR_INTERNET_INTERNAL_ERROR",
+    "code": 12004,
+    "msg": "An internal error has occurred."
+  },
+  {
+    "title": "ERROR_INTERNET_INVALID_CA",
+    "code": 12045,
+    "msg": "The function is unfamiliar with the Certificate Authority that generated the server&#39;s certificate."
+  },
+  {
+    "title": "ERROR_INTERNET_INVALID_OPERATION",
+    "code": 12016,
+    "msg": "The requested operation is invalid."
+  },
+  {
+    "title": "ERROR_INTERNET_INVALID_OPTION",
+    "code": 12009,
+    "msg": "A request to or specified an invalid option value."
+  },
+  {
+    "title": "ERROR_INTERNET_INVALID_PROXY_REQUEST",
+    "code": 12033,
+    "msg": "The request to the proxy was invalid."
+  },
+  {
+    "title": "ERROR_INTERNET_INVALID_URL",
+    "code": 12005,
+    "msg": "The URL is invalid."
+  },
+  {
+    "title": "ERROR_INTERNET_ITEM_NOT_FOUND",
+    "code": 12028,
+    "msg": "The requested item could not be located."
+  },
+  {
+    "title": "ERROR_INTERNET_LOGIN_FAILURE",
+    "code": 12015,
+    "msg": "The request to connect and log on to an FTP server failed."
+  },
+  {
+    "title": "ERROR_INTERNET_LOGIN_FAILURE_DISPLAY_ENTITY_BODY",
+    "code": 12174,
+    "msg": "The MS-Logoff digest header has been returned from the website. This header specifically instructs the digest package to purge credentials for the associated realm. This error will only be returned if option has been set; otherwise, is returned."
+  },
+  {
+    "title": "ERROR_INTERNET_MIXED_SECURITY",
+    "code": 12041,
+    "msg": "The content is not entirely secure. Some of the content being viewed may have come from unsecured servers."
+  },
+  {
+    "title": "ERROR_INTERNET_NAME_NOT_RESOLVED",
+    "code": 12007,
+    "msg": "The server name could not be resolved."
+  },
+  {
+    "title": "ERROR_INTERNET_NEED_MSN_SSPI_PKG",
+    "code": 12173,
+    "msg": "Not currently implemented."
+  },
+  {
+    "title": "ERROR_INTERNET_NEED_UI",
+    "code": 12034,
+    "msg": "A user interface or other blocking operation has been requested.\n\n"
+  },
+  {
+    "title": "ERROR_INTERNET_NO_CALLBACK",
+    "code": 12025,
+    "msg": "An asynchronous request could not be made because a callback function has not been set."
+  },
+  {
+    "title": "ERROR_INTERNET_NO_CONTEXT",
+    "code": 12024,
+    "msg": "An asynchronous request could not be made because a zero context value was supplied."
+  },
+  {
+    "title": "ERROR_INTERNET_NO_DIRECT_ACCESS",
+    "code": 12023,
+    "msg": "Direct network access cannot be made at this time."
+  },
+  {
+    "title": "ERROR_INTERNET_NOT_INITIALIZED",
+    "code": 12172,
+    "msg": "Initialization of the WinINet API has not occurred. Indicates that a higher-level function, such as , has not been called yet."
+  },
+  {
+    "title": "ERROR_INTERNET_NOT_PROXY_REQUEST",
+    "code": 12020,
+    "msg": "The request cannot be made via a proxy."
+  },
+  {
+    "title": "ERROR_INTERNET_OPERATION_CANCELLED",
+    "code": 12017,
+    "msg": "The operation was canceled, usually because the handle on which the request was operating was closed before the operation completed."
+  },
+  {
+    "title": "ERROR_INTERNET_OPTION_NOT_SETTABLE",
+    "code": 12011,
+    "msg": "The requested option cannot be set, only queried."
+  },
+  {
+    "title": "ERROR_INTERNET_OUT_OF_HANDLES",
+    "code": 12001,
+    "msg": "No more handles could be generated at this time."
+  },
+  {
+    "title": "ERROR_INTERNET_POST_IS_NON_SECURE",
+    "code": 12043,
+    "msg": "The application is posting data to a server that is not secure."
+  },
+  {
+    "title": "ERROR_INTERNET_PROTOCOL_NOT_FOUND",
+    "code": 12008,
+    "msg": "The requested protocol could not be located."
+  },
+  {
+    "title": "ERROR_INTERNET_PROXY_SERVER_UNREACHABLE",
+    "code": 12165,
+    "msg": "The designated proxy server cannot be reached."
+  },
+  {
+    "title": "ERROR_INTERNET_REDIRECT_SCHEME_CHANGE",
+    "code": 12048,
+    "msg": "The function could not handle the redirection, because the scheme changed (for example, HTTP to FTP)."
+  },
+  {
+    "title": "ERROR_INTERNET_REGISTRY_VALUE_NOT_FOUND",
+    "code": 12021,
+    "msg": "A required registry value could not be located."
+  },
+  {
+    "title": "ERROR_INTERNET_REQUEST_PENDING",
+    "code": 12026,
+    "msg": "The required operation could not be completed because one or more requests are pending."
+  },
+  {
+    "title": "ERROR_INTERNET_RETRY_DIALOG",
+    "code": 12050,
+    "msg": "The dialog box should be retried."
+  },
+  {
+    "title": "ERROR_INTERNET_SEC_CERT_CN_INVALID",
+    "code": 12038,
+    "msg": "SSL certificate common name (host name field) is incorrect for example, if you entered and the common name on the certificate says ."
+  },
+  {
+    "title": "ERROR_INTERNET_SEC_CERT_DATE_INVALID",
+    "code": 12037,
+    "msg": "SSL certificate date that was received from the server is bad. The certificate is expired."
+  },
+  {
+    "title": "ERROR_INTERNET_SEC_CERT_ERRORS",
+    "code": 12055,
+    "msg": "The SSL certificate contains errors."
+  },
+  {
+    "title": "ERROR_INTERNET_SEC_CERT_NO_REV",
+    "code": 12056,
+    "msg": "The SSL certificate was not revoked."
+  },
+  {
+    "title": "ERROR_INTERNET_SEC_CERT_REV_FAILED",
+    "code": 12057,
+    "msg": "Revocation of the SSL certificate failed."
+  },
+  {
+    "title": "ERROR_INTERNET_SEC_CERT_REVOKED",
+    "code": 12170,
+    "msg": "The SSL certificate was revoked."
+  },
+  {
+    "title": "ERROR_INTERNET_SEC_INVALID_CERT",
+    "code": 12169,
+    "msg": "The SSL certificate is invalid."
+  },
+  {
+    "title": "ERROR_INTERNET_SECURITY_CHANNEL_ERROR",
+    "code": 12157,
+    "msg": "The application experienced an internal error loading the SSL libraries."
+  },
+  {
+    "title": "ERROR_INTERNET_SERVER_UNREACHABLE",
+    "code": 12164,
+    "msg": "The website or server indicated is unreachable."
+  },
+  {
+    "title": "ERROR_INTERNET_SHUTDOWN",
+    "code": 12012,
+    "msg": "WinINet support is being shut down or unloaded."
+  },
+  {
+    "title": "ERROR_INTERNET_TCPIP_NOT_INSTALLED",
+    "code": 12159,
+    "msg": "The required protocol stack is not loaded and the application cannot start WinSock."
+  },
+  {
+    "title": "ERROR_INTERNET_TIMEOUT",
+    "code": 12002,
+    "msg": "The request has timed out."
+  },
+  {
+    "title": "ERROR_INTERNET_UNABLE_TO_CACHE_FILE",
+    "code": 12158,
+    "msg": "The function was unable to cache the file."
+  },
+  {
+    "title": "ERROR_INTERNET_UNABLE_TO_DOWNLOAD_SCRIPT",
+    "code": 12167,
+    "msg": "The automatic proxy configuration script could not be downloaded. The INTERNET_FLAG_MUST_CACHE_REQUEST flag was set."
+  },
+  {
+    "title": "ERROR_INTERNET_UNRECOGNIZED_SCHEME",
+    "code": 12006,
+    "msg": "The URL scheme could not be recognized, or is not supported."
+  }
+]
