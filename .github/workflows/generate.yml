@@ -18,51 +18,51 @@ jobs:
           [
             {
               name: "system_0-499.json",
-              url: "https://docs.microsoft.com/en-us/windows/win32/debug/system-error-codes--0-499-",
+              url: "https://learn.microsoft.com/en-us/windows/win32/debug/system-error-codes--0-499-",
             },
             {
               name: "system_500-999.json",
-              url: "https://docs.microsoft.com/en-us/windows/win32/debug/system-error-codes--500-999-",
+              url: "https://learn.microsoft.com/en-us/windows/win32/debug/system-error-codes--500-999-",
             },
             {
               name: "system_1000-1299.json",
-              url: "https://docs.microsoft.com/en-us/windows/win32/debug/system-error-codes--1000-1299-",
+              url: "https://learn.microsoft.com/en-us/windows/win32/debug/system-error-codes--1000-1299-",
             },
             {
               name: "system_1300-1699.json",
-              url: "https://docs.microsoft.com/en-us/windows/win32/debug/system-error-codes--1300-1699-",
+              url: "https://learn.microsoft.com/en-us/windows/win32/debug/system-error-codes--1300-1699-",
             },
             {
               name: "system_1700-3999.json",
-              url: "https://docs.microsoft.com/en-us/windows/win32/debug/system-error-codes--1700-3999-",
+              url: "https://learn.microsoft.com/en-us/windows/win32/debug/system-error-codes--1700-3999-",
             },
             {
               name: "system_4000-5999.json",
-              url: "https://docs.microsoft.com/en-us/windows/win32/debug/system-error-codes--4000-5999-",
+              url: "https://learn.microsoft.com/en-us/windows/win32/debug/system-error-codes--4000-5999-",
             },
             {
               name: "system_6000-8199.json",
-              url: "https://docs.microsoft.com/en-us/windows/win32/debug/system-error-codes--6000-8199-",
+              url: "https://learn.microsoft.com/en-us/windows/win32/debug/system-error-codes--6000-8199-",
             },
             {
               name: "system_8200-8999.json",
-              url: "https://docs.microsoft.com/en-us/windows/win32/debug/system-error-codes--8200-8999-",
+              url: "https://learn.microsoft.com/en-us/windows/win32/debug/system-error-codes--8200-8999-",
             },
             {
               name: "system_9000-11999.json",
-              url: "https://docs.microsoft.com/en-us/windows/win32/debug/system-error-codes--9000-11999-",
+              url: "https://learn.microsoft.com/en-us/windows/win32/debug/system-error-codes--9000-11999-",
             },
             {
               name: "system_12000-15999.json",
-              url: "https://docs.microsoft.com/en-us/windows/win32/debug/system-error-codes--12000-15999-",
+              url: "https://learn.microsoft.com/en-us/windows/win32/debug/system-error-codes--12000-15999-",
             },
             {
               name: "wininet_12000-12999.json",
-              url: "https://docs.microsoft.com/en-us/windows/win32/wininet/wininet-errors",
+              url: "https://learn.microsoft.com/en-us/windows/win32/wininet/wininet-errors",
             },
             {
               name: "winhttp_12000-12999.json",
-              url: "https://docs.microsoft.com/en-us/windows/win32/winhttp/error-messages",
+              url: "https://learn.microsoft.com/en-us/windows/win32/winhttp/error-messages",
             },
           ]
     name: "Build ${{ matrix.files.name}}"
@@ -78,7 +78,7 @@ jobs:
           rm pup_v0.4.0_linux_amd64.zip
       - name: build
         run: >
-          curl ${{ matrix.files.url }} | 
+          curl -L ${{ matrix.files.url }} |
               pup '.content > dl json{}' |
               jq '[.[0].children[].children[].children[]|select(.tag == "strong" or .children != null)]' |
               jq 'reduce .[] as $item ([];
@@ -93,7 +93,8 @@ jobs:
                   "title": .[0].text,
                   "code": .[1].children[0].text|split(" ")[0]|tonumber,
                   "msg": .[2:]|map(.children[].text)|join("\n\n")
-              })' > ${{ matrix.files.name }}
+              })' > ${{ matrix.files.name }} &&
+              [ -n "$(find "${{ matrix.files.name }}" -prune -size +100c)"} ]
       - name: commit
         uses: EndBug/add-and-commit@v7
         with:
