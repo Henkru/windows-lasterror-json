@@ -1,0 +1,1122 @@
+[
+  {
+    "title": "RPC_S_INVALID_STRING_BINDING",
+    "code": 1700,
+    "msg": "The string binding is invalid."
+  },
+  {
+    "title": "RPC_S_WRONG_KIND_OF_BINDING",
+    "code": 1701,
+    "msg": "The binding handle is not the correct type."
+  },
+  {
+    "title": "RPC_S_INVALID_BINDING",
+    "code": 1702,
+    "msg": "The binding handle is invalid."
+  },
+  {
+    "title": "RPC_S_PROTSEQ_NOT_SUPPORTED",
+    "code": 1703,
+    "msg": "The RPC protocol sequence is not supported."
+  },
+  {
+    "title": "RPC_S_INVALID_RPC_PROTSEQ",
+    "code": 1704,
+    "msg": "The RPC protocol sequence is invalid."
+  },
+  {
+    "title": "RPC_S_INVALID_STRING_UUID",
+    "code": 1705,
+    "msg": "The string universal unique identifier (UUID) is invalid."
+  },
+  {
+    "title": "RPC_S_INVALID_ENDPOINT_FORMAT",
+    "code": 1706,
+    "msg": "The endpoint format is invalid."
+  },
+  {
+    "title": "RPC_S_INVALID_NET_ADDR",
+    "code": 1707,
+    "msg": "The network address is invalid."
+  },
+  {
+    "title": "RPC_S_NO_ENDPOINT_FOUND",
+    "code": 1708,
+    "msg": "No endpoint was found."
+  },
+  {
+    "title": "RPC_S_INVALID_TIMEOUT",
+    "code": 1709,
+    "msg": "The timeout value is invalid."
+  },
+  {
+    "title": "RPC_S_OBJECT_NOT_FOUND",
+    "code": 1710,
+    "msg": "The object universal unique identifier (UUID) was not found."
+  },
+  {
+    "title": "RPC_S_ALREADY_REGISTERED",
+    "code": 1711,
+    "msg": "The object universal unique identifier (UUID) has already been registered."
+  },
+  {
+    "title": "RPC_S_TYPE_ALREADY_REGISTERED",
+    "code": 1712,
+    "msg": "The type universal unique identifier (UUID) has already been registered."
+  },
+  {
+    "title": "RPC_S_ALREADY_LISTENING",
+    "code": 1713,
+    "msg": "The RPC server is already listening."
+  },
+  {
+    "title": "RPC_S_NO_PROTSEQS_REGISTERED",
+    "code": 1714,
+    "msg": "No protocol sequences have been registered."
+  },
+  {
+    "title": "RPC_S_NOT_LISTENING",
+    "code": 1715,
+    "msg": "The RPC server is not listening."
+  },
+  {
+    "title": "RPC_S_UNKNOWN_MGR_TYPE",
+    "code": 1716,
+    "msg": "The manager type is unknown."
+  },
+  {
+    "title": "RPC_S_UNKNOWN_IF",
+    "code": 1717,
+    "msg": "The interface is unknown."
+  },
+  {
+    "title": "RPC_S_NO_BINDINGS",
+    "code": 1718,
+    "msg": "There are no bindings."
+  },
+  {
+    "title": "RPC_S_NO_PROTSEQS",
+    "code": 1719,
+    "msg": "There are no protocol sequences."
+  },
+  {
+    "title": "RPC_S_CANT_CREATE_ENDPOINT",
+    "code": 1720,
+    "msg": "The endpoint cannot be created."
+  },
+  {
+    "title": "RPC_S_OUT_OF_RESOURCES",
+    "code": 1721,
+    "msg": "Not enough resources are available to complete this operation."
+  },
+  {
+    "title": "RPC_S_SERVER_UNAVAILABLE",
+    "code": 1722,
+    "msg": "The RPC server is unavailable."
+  },
+  {
+    "title": "RPC_S_SERVER_TOO_BUSY",
+    "code": 1723,
+    "msg": "The RPC server is too busy to complete this operation."
+  },
+  {
+    "title": "RPC_S_INVALID_NETWORK_OPTIONS",
+    "code": 1724,
+    "msg": "The network options are invalid."
+  },
+  {
+    "title": "RPC_S_NO_CALL_ACTIVE",
+    "code": 1725,
+    "msg": "There are no remote procedure calls active on this thread."
+  },
+  {
+    "title": "RPC_S_CALL_FAILED",
+    "code": 1726,
+    "msg": "The remote procedure call failed."
+  },
+  {
+    "title": "RPC_S_CALL_FAILED_DNE",
+    "code": 1727,
+    "msg": "The remote procedure call failed and did not execute."
+  },
+  {
+    "title": "RPC_S_PROTOCOL_ERROR",
+    "code": 1728,
+    "msg": "A remote procedure call (RPC) protocol error occurred."
+  },
+  {
+    "title": "RPC_S_PROXY_ACCESS_DENIED",
+    "code": 1729,
+    "msg": "Access to the HTTP proxy is denied."
+  },
+  {
+    "title": "RPC_S_UNSUPPORTED_TRANS_SYN",
+    "code": 1730,
+    "msg": "The transfer syntax is not supported by the RPC server."
+  },
+  {
+    "title": "RPC_S_UNSUPPORTED_TYPE",
+    "code": 1732,
+    "msg": "The universal unique identifier (UUID) type is not supported."
+  },
+  {
+    "title": "RPC_S_INVALID_TAG",
+    "code": 1733,
+    "msg": "The tag is invalid."
+  },
+  {
+    "title": "RPC_S_INVALID_BOUND",
+    "code": 1734,
+    "msg": "The array bounds are invalid."
+  },
+  {
+    "title": "RPC_S_NO_ENTRY_NAME",
+    "code": 1735,
+    "msg": "The binding does not contain an entry name."
+  },
+  {
+    "title": "RPC_S_INVALID_NAME_SYNTAX",
+    "code": 1736,
+    "msg": "The name syntax is invalid."
+  },
+  {
+    "title": "RPC_S_UNSUPPORTED_NAME_SYNTAX",
+    "code": 1737,
+    "msg": "The name syntax is not supported."
+  },
+  {
+    "title": "RPC_S_UUID_NO_ADDRESS",
+    "code": 1739,
+    "msg": "No network address is available to use to construct a universal unique identifier (UUID)."
+  },
+  {
+    "title": "RPC_S_DUPLICATE_ENDPOINT",
+    "code": 1740,
+    "msg": "The endpoint is a duplicate."
+  },
+  {
+    "title": "RPC_S_UNKNOWN_AUTHN_TYPE",
+    "code": 1741,
+    "msg": "The authentication type is unknown."
+  },
+  {
+    "title": "RPC_S_MAX_CALLS_TOO_SMALL",
+    "code": 1742,
+    "msg": "The maximum number of calls is too small."
+  },
+  {
+    "title": "RPC_S_STRING_TOO_LONG",
+    "code": 1743,
+    "msg": "The string is too long."
+  },
+  {
+    "title": "RPC_S_PROTSEQ_NOT_FOUND",
+    "code": 1744,
+    "msg": "The RPC protocol sequence was not found."
+  },
+  {
+    "title": "RPC_S_PROCNUM_OUT_OF_RANGE",
+    "code": 1745,
+    "msg": "The procedure number is out of range."
+  },
+  {
+    "title": "RPC_S_BINDING_HAS_NO_AUTH",
+    "code": 1746,
+    "msg": "The binding does not contain any authentication information."
+  },
+  {
+    "title": "RPC_S_UNKNOWN_AUTHN_SERVICE",
+    "code": 1747,
+    "msg": "The authentication service is unknown."
+  },
+  {
+    "title": "RPC_S_UNKNOWN_AUTHN_LEVEL",
+    "code": 1748,
+    "msg": "The authentication level is unknown."
+  },
+  {
+    "title": "RPC_S_INVALID_AUTH_IDENTITY",
+    "code": 1749,
+    "msg": "The security context is invalid."
+  },
+  {
+    "title": "RPC_S_UNKNOWN_AUTHZ_SERVICE",
+    "code": 1750,
+    "msg": "The authorization service is unknown."
+  },
+  {
+    "title": "EPT_S_INVALID_ENTRY",
+    "code": 1751,
+    "msg": "The entry is invalid."
+  },
+  {
+    "title": "EPT_S_CANT_PERFORM_OP",
+    "code": 1752,
+    "msg": "The server endpoint cannot perform the operation."
+  },
+  {
+    "title": "EPT_S_NOT_REGISTERED",
+    "code": 1753,
+    "msg": "There are no more endpoints available from the endpoint mapper."
+  },
+  {
+    "title": "RPC_S_NOTHING_TO_EXPORT",
+    "code": 1754,
+    "msg": "No interfaces have been exported."
+  },
+  {
+    "title": "RPC_S_INCOMPLETE_NAME",
+    "code": 1755,
+    "msg": "The entry name is incomplete."
+  },
+  {
+    "title": "RPC_S_INVALID_VERS_OPTION",
+    "code": 1756,
+    "msg": "The version option is invalid."
+  },
+  {
+    "title": "RPC_S_NO_MORE_MEMBERS",
+    "code": 1757,
+    "msg": "There are no more members."
+  },
+  {
+    "title": "RPC_S_NOT_ALL_OBJS_UNEXPORTED",
+    "code": 1758,
+    "msg": "There is nothing to unexport."
+  },
+  {
+    "title": "RPC_S_INTERFACE_NOT_FOUND",
+    "code": 1759,
+    "msg": "The interface was not found."
+  },
+  {
+    "title": "RPC_S_ENTRY_ALREADY_EXISTS",
+    "code": 1760,
+    "msg": "The entry already exists."
+  },
+  {
+    "title": "RPC_S_ENTRY_NOT_FOUND",
+    "code": 1761,
+    "msg": "The entry is not found."
+  },
+  {
+    "title": "RPC_S_NAME_SERVICE_UNAVAILABLE",
+    "code": 1762,
+    "msg": "The name service is unavailable."
+  },
+  {
+    "title": "RPC_S_INVALID_NAF_ID",
+    "code": 1763,
+    "msg": "The network address family is invalid."
+  },
+  {
+    "title": "RPC_S_CANNOT_SUPPORT",
+    "code": 1764,
+    "msg": "The requested operation is not supported."
+  },
+  {
+    "title": "RPC_S_NO_CONTEXT_AVAILABLE",
+    "code": 1765,
+    "msg": "No security context is available to allow impersonation."
+  },
+  {
+    "title": "RPC_S_INTERNAL_ERROR",
+    "code": 1766,
+    "msg": "An internal error occurred in a remote procedure call (RPC)."
+  },
+  {
+    "title": "RPC_S_ZERO_DIVIDE",
+    "code": 1767,
+    "msg": "The RPC server attempted an integer division by zero."
+  },
+  {
+    "title": "RPC_S_ADDRESS_ERROR",
+    "code": 1768,
+    "msg": "An addressing error occurred in the RPC server."
+  },
+  {
+    "title": "RPC_S_FP_DIV_ZERO",
+    "code": 1769,
+    "msg": "A floating-point operation at the RPC server caused a division by zero."
+  },
+  {
+    "title": "RPC_S_FP_UNDERFLOW",
+    "code": 1770,
+    "msg": "A floating-point underflow occurred at the RPC server."
+  },
+  {
+    "title": "RPC_S_FP_OVERFLOW",
+    "code": 1771,
+    "msg": "A floating-point overflow occurred at the RPC server."
+  },
+  {
+    "title": "RPC_X_NO_MORE_ENTRIES",
+    "code": 1772,
+    "msg": "The list of RPC servers available for the binding of auto handles has been exhausted."
+  },
+  {
+    "title": "RPC_X_SS_CHAR_TRANS_OPEN_FAIL",
+    "code": 1773,
+    "msg": "Unable to open the character translation table file."
+  },
+  {
+    "title": "RPC_X_SS_CHAR_TRANS_SHORT_FILE",
+    "code": 1774,
+    "msg": "The file containing the character translation table has fewer than 512 bytes."
+  },
+  {
+    "title": "RPC_X_SS_IN_NULL_CONTEXT",
+    "code": 1775,
+    "msg": "A null context handle was passed from the client to the host during a remote procedure call."
+  },
+  {
+    "title": "RPC_X_SS_CONTEXT_DAMAGED",
+    "code": 1777,
+    "msg": "The context handle changed during a remote procedure call."
+  },
+  {
+    "title": "RPC_X_SS_HANDLES_MISMATCH",
+    "code": 1778,
+    "msg": "The binding handles passed to a remote procedure call do not match."
+  },
+  {
+    "title": "RPC_X_SS_CANNOT_GET_CALL_HANDLE",
+    "code": 1779,
+    "msg": "The stub is unable to get the remote procedure call handle."
+  },
+  {
+    "title": "RPC_X_NULL_REF_POINTER",
+    "code": 1780,
+    "msg": "A null reference pointer was passed to the stub."
+  },
+  {
+    "title": "RPC_X_ENUM_VALUE_OUT_OF_RANGE",
+    "code": 1781,
+    "msg": "The enumeration value is out of range."
+  },
+  {
+    "title": "RPC_X_BYTE_COUNT_TOO_SMALL",
+    "code": 1782,
+    "msg": "The byte count is too small."
+  },
+  {
+    "title": "RPC_X_BAD_STUB_DATA",
+    "code": 1783,
+    "msg": "The stub received bad data."
+  },
+  {
+    "title": "ERROR_INVALID_USER_BUFFER",
+    "code": 1784,
+    "msg": "The supplied user buffer is not valid for the requested operation."
+  },
+  {
+    "title": "ERROR_UNRECOGNIZED_MEDIA",
+    "code": 1785,
+    "msg": "The disk media is not recognized. It may not be formatted."
+  },
+  {
+    "title": "ERROR_NO_TRUST_LSA_SECRET",
+    "code": 1786,
+    "msg": "The workstation does not have a trust secret."
+  },
+  {
+    "title": "ERROR_NO_TRUST_SAM_ACCOUNT",
+    "code": 1787,
+    "msg": "The security database on the server does not have a computer account for this workstation trust relationship."
+  },
+  {
+    "title": "ERROR_TRUSTED_DOMAIN_FAILURE",
+    "code": 1788,
+    "msg": "The trust relationship between the primary domain and the trusted domain failed."
+  },
+  {
+    "title": "ERROR_TRUSTED_RELATIONSHIP_FAILURE",
+    "code": 1789,
+    "msg": "The trust relationship between this workstation and the primary domain failed."
+  },
+  {
+    "title": "ERROR_TRUST_FAILURE",
+    "code": 1790,
+    "msg": "The network logon failed."
+  },
+  {
+    "title": "RPC_S_CALL_IN_PROGRESS",
+    "code": 1791,
+    "msg": "A remote procedure call is already in progress for this thread."
+  },
+  {
+    "title": "ERROR_NETLOGON_NOT_STARTED",
+    "code": 1792,
+    "msg": "An attempt was made to logon, but the network logon service was not started."
+  },
+  {
+    "title": "ERROR_ACCOUNT_EXPIRED",
+    "code": 1793,
+    "msg": "The user&#39;s account has expired."
+  },
+  {
+    "title": "ERROR_REDIRECTOR_HAS_OPEN_HANDLES",
+    "code": 1794,
+    "msg": "The redirector is in use and cannot be unloaded."
+  },
+  {
+    "title": "ERROR_PRINTER_DRIVER_ALREADY_INSTALLED",
+    "code": 1795,
+    "msg": "The specified printer driver is already installed."
+  },
+  {
+    "title": "ERROR_UNKNOWN_PORT",
+    "code": 1796,
+    "msg": "The specified port is unknown."
+  },
+  {
+    "title": "ERROR_UNKNOWN_PRINTER_DRIVER",
+    "code": 1797,
+    "msg": "The printer driver is unknown."
+  },
+  {
+    "title": "ERROR_UNKNOWN_PRINTPROCESSOR",
+    "code": 1798,
+    "msg": "The print processor is unknown."
+  },
+  {
+    "title": "ERROR_INVALID_SEPARATOR_FILE",
+    "code": 1799,
+    "msg": "The specified separator file is invalid."
+  },
+  {
+    "title": "ERROR_INVALID_PRIORITY",
+    "code": 1800,
+    "msg": "The specified priority is invalid."
+  },
+  {
+    "title": "ERROR_INVALID_PRINTER_NAME",
+    "code": 1801,
+    "msg": "The printer name is invalid."
+  },
+  {
+    "title": "ERROR_PRINTER_ALREADY_EXISTS",
+    "code": 1802,
+    "msg": "The printer already exists."
+  },
+  {
+    "title": "ERROR_INVALID_PRINTER_COMMAND",
+    "code": 1803,
+    "msg": "The printer command is invalid."
+  },
+  {
+    "title": "ERROR_INVALID_DATATYPE",
+    "code": 1804,
+    "msg": "The specified datatype is invalid."
+  },
+  {
+    "title": "ERROR_INVALID_ENVIRONMENT",
+    "code": 1805,
+    "msg": "The environment specified is invalid."
+  },
+  {
+    "title": "RPC_S_NO_MORE_BINDINGS",
+    "code": 1806,
+    "msg": "There are no more bindings."
+  },
+  {
+    "title": "ERROR_NOLOGON_INTERDOMAIN_TRUST_ACCOUNT",
+    "code": 1807,
+    "msg": "The account used is an interdomain trust account. Use your global user account or local user account to access this server."
+  },
+  {
+    "title": "ERROR_NOLOGON_WORKSTATION_TRUST_ACCOUNT",
+    "code": 1808,
+    "msg": "The account used is a computer account. Use your global user account or local user account to access this server."
+  },
+  {
+    "title": "ERROR_NOLOGON_SERVER_TRUST_ACCOUNT",
+    "code": 1809,
+    "msg": "The account used is a server trust account. Use your global user account or local user account to access this server."
+  },
+  {
+    "title": "ERROR_DOMAIN_TRUST_INCONSISTENT",
+    "code": 1810,
+    "msg": "The name or security ID (SID) of the domain specified is inconsistent with the trust information for that domain."
+  },
+  {
+    "title": "ERROR_SERVER_HAS_OPEN_HANDLES",
+    "code": 1811,
+    "msg": "The server is in use and cannot be unloaded."
+  },
+  {
+    "title": "ERROR_RESOURCE_DATA_NOT_FOUND",
+    "code": 1812,
+    "msg": "The specified image file did not contain a resource section."
+  },
+  {
+    "title": "ERROR_RESOURCE_TYPE_NOT_FOUND",
+    "code": 1813,
+    "msg": "The specified resource type cannot be found in the image file."
+  },
+  {
+    "title": "ERROR_RESOURCE_NAME_NOT_FOUND",
+    "code": 1814,
+    "msg": "The specified resource name cannot be found in the image file."
+  },
+  {
+    "title": "ERROR_RESOURCE_LANG_NOT_FOUND",
+    "code": 1815,
+    "msg": "The specified resource language ID cannot be found in the image file."
+  },
+  {
+    "title": "ERROR_NOT_ENOUGH_QUOTA",
+    "code": 1816,
+    "msg": "Not enough quota is available to process this command."
+  },
+  {
+    "title": "RPC_S_NO_INTERFACES",
+    "code": 1817,
+    "msg": "No interfaces have been registered."
+  },
+  {
+    "title": "RPC_S_CALL_CANCELLED",
+    "code": 1818,
+    "msg": "The remote procedure call was cancelled."
+  },
+  {
+    "title": "RPC_S_BINDING_INCOMPLETE",
+    "code": 1819,
+    "msg": "The binding handle does not contain all required information."
+  },
+  {
+    "title": "RPC_S_COMM_FAILURE",
+    "code": 1820,
+    "msg": "A communications failure occurred during a remote procedure call."
+  },
+  {
+    "title": "RPC_S_UNSUPPORTED_AUTHN_LEVEL",
+    "code": 1821,
+    "msg": "The requested authentication level is not supported."
+  },
+  {
+    "title": "RPC_S_NO_PRINC_NAME",
+    "code": 1822,
+    "msg": "No principal name registered."
+  },
+  {
+    "title": "RPC_S_NOT_RPC_ERROR",
+    "code": 1823,
+    "msg": "The error specified is not a valid Windows RPC error code."
+  },
+  {
+    "title": "RPC_S_UUID_LOCAL_ONLY",
+    "code": 1824,
+    "msg": "A UUID that is valid only on this computer has been allocated."
+  },
+  {
+    "title": "RPC_S_SEC_PKG_ERROR",
+    "code": 1825,
+    "msg": "A security package specific error occurred."
+  },
+  {
+    "title": "RPC_S_NOT_CANCELLED",
+    "code": 1826,
+    "msg": "Thread is not canceled."
+  },
+  {
+    "title": "RPC_X_INVALID_ES_ACTION",
+    "code": 1827,
+    "msg": "Invalid operation on the encoding/decoding handle."
+  },
+  {
+    "title": "RPC_X_WRONG_ES_VERSION",
+    "code": 1828,
+    "msg": "Incompatible version of the serializing package."
+  },
+  {
+    "title": "RPC_X_WRONG_STUB_VERSION",
+    "code": 1829,
+    "msg": "Incompatible version of the RPC stub."
+  },
+  {
+    "title": "RPC_X_INVALID_PIPE_OBJECT",
+    "code": 1830,
+    "msg": "The RPC pipe object is invalid or corrupted."
+  },
+  {
+    "title": "RPC_X_WRONG_PIPE_ORDER",
+    "code": 1831,
+    "msg": "An invalid operation was attempted on an RPC pipe object."
+  },
+  {
+    "title": "RPC_X_WRONG_PIPE_VERSION",
+    "code": 1832,
+    "msg": "Unsupported RPC pipe version."
+  },
+  {
+    "title": "RPC_S_COOKIE_AUTH_FAILED",
+    "code": 1833,
+    "msg": "HTTP proxy server rejected the connection because the cookie authentication failed."
+  },
+  {
+    "title": "RPC_S_GROUP_MEMBER_NOT_FOUND",
+    "code": 1898,
+    "msg": "The group member was not found."
+  },
+  {
+    "title": "EPT_S_CANT_CREATE",
+    "code": 1899,
+    "msg": "The endpoint mapper database entry could not be created."
+  },
+  {
+    "title": "RPC_S_INVALID_OBJECT",
+    "code": 1900,
+    "msg": "The object universal unique identifier (UUID) is the nil UUID."
+  },
+  {
+    "title": "ERROR_INVALID_TIME",
+    "code": 1901,
+    "msg": "The specified time is invalid."
+  },
+  {
+    "title": "ERROR_INVALID_FORM_NAME",
+    "code": 1902,
+    "msg": "The specified form name is invalid."
+  },
+  {
+    "title": "ERROR_INVALID_FORM_SIZE",
+    "code": 1903,
+    "msg": "The specified form size is invalid."
+  },
+  {
+    "title": "ERROR_ALREADY_WAITING",
+    "code": 1904,
+    "msg": "The specified printer handle is already being waited on."
+  },
+  {
+    "title": "ERROR_PRINTER_DELETED",
+    "code": 1905,
+    "msg": "The specified printer has been deleted."
+  },
+  {
+    "title": "ERROR_INVALID_PRINTER_STATE",
+    "code": 1906,
+    "msg": "The state of the printer is invalid."
+  },
+  {
+    "title": "ERROR_PASSWORD_MUST_CHANGE",
+    "code": 1907,
+    "msg": "The user&#39;s password must be changed before signing in."
+  },
+  {
+    "title": "ERROR_DOMAIN_CONTROLLER_NOT_FOUND",
+    "code": 1908,
+    "msg": "Could not find the domain controller for this domain."
+  },
+  {
+    "title": "ERROR_ACCOUNT_LOCKED_OUT",
+    "code": 1909,
+    "msg": "The referenced account is currently locked out and may not be logged on to."
+  },
+  {
+    "title": "OR_INVALID_OXID",
+    "code": 1910,
+    "msg": "The object exporter specified was not found."
+  },
+  {
+    "title": "OR_INVALID_OID",
+    "code": 1911,
+    "msg": "The object specified was not found."
+  },
+  {
+    "title": "OR_INVALID_SET",
+    "code": 1912,
+    "msg": "The object resolver set specified was not found."
+  },
+  {
+    "title": "RPC_S_SEND_INCOMPLETE",
+    "code": 1913,
+    "msg": "Some data remains to be sent in the request buffer."
+  },
+  {
+    "title": "RPC_S_INVALID_ASYNC_HANDLE",
+    "code": 1914,
+    "msg": "Invalid asynchronous remote procedure call handle."
+  },
+  {
+    "title": "RPC_S_INVALID_ASYNC_CALL",
+    "code": 1915,
+    "msg": "Invalid asynchronous RPC call handle for this operation."
+  },
+  {
+    "title": "RPC_X_PIPE_CLOSED",
+    "code": 1916,
+    "msg": "The RPC pipe object has already been closed."
+  },
+  {
+    "title": "RPC_X_PIPE_DISCIPLINE_ERROR",
+    "code": 1917,
+    "msg": "The RPC call completed before all pipes were processed."
+  },
+  {
+    "title": "RPC_X_PIPE_EMPTY",
+    "code": 1918,
+    "msg": "No more data is available from the RPC pipe."
+  },
+  {
+    "title": "ERROR_NO_SITENAME",
+    "code": 1919,
+    "msg": "No site name is available for this machine."
+  },
+  {
+    "title": "ERROR_CANT_ACCESS_FILE",
+    "code": 1920,
+    "msg": "The file cannot be accessed by the system."
+  },
+  {
+    "title": "ERROR_CANT_RESOLVE_FILENAME",
+    "code": 1921,
+    "msg": "The name of the file cannot be resolved by the system."
+  },
+  {
+    "title": "RPC_S_ENTRY_TYPE_MISMATCH",
+    "code": 1922,
+    "msg": "The entry is not of the expected type."
+  },
+  {
+    "title": "RPC_S_NOT_ALL_OBJS_EXPORTED",
+    "code": 1923,
+    "msg": "Not all object UUIDs could be exported to the specified entry."
+  },
+  {
+    "title": "RPC_S_INTERFACE_NOT_EXPORTED",
+    "code": 1924,
+    "msg": "Interface could not be exported to the specified entry."
+  },
+  {
+    "title": "RPC_S_PROFILE_NOT_ADDED",
+    "code": 1925,
+    "msg": "The specified profile entry could not be added."
+  },
+  {
+    "title": "RPC_S_PRF_ELT_NOT_ADDED",
+    "code": 1926,
+    "msg": "The specified profile element could not be added."
+  },
+  {
+    "title": "RPC_S_PRF_ELT_NOT_REMOVED",
+    "code": 1927,
+    "msg": "The specified profile element could not be removed."
+  },
+  {
+    "title": "RPC_S_GRP_ELT_NOT_ADDED",
+    "code": 1928,
+    "msg": "The group element could not be added."
+  },
+  {
+    "title": "RPC_S_GRP_ELT_NOT_REMOVED",
+    "code": 1929,
+    "msg": "The group element could not be removed."
+  },
+  {
+    "title": "ERROR_KM_DRIVER_BLOCKED",
+    "code": 1930,
+    "msg": "The printer driver is not compatible with a policy enabled on your computer that blocks NT 4.0 drivers."
+  },
+  {
+    "title": "ERROR_CONTEXT_EXPIRED",
+    "code": 1931,
+    "msg": "The context has expired and can no longer be used."
+  },
+  {
+    "title": "ERROR_PER_USER_TRUST_QUOTA_EXCEEDED",
+    "code": 1932,
+    "msg": "The current user&#39;s delegated trust creation quota has been exceeded."
+  },
+  {
+    "title": "ERROR_ALL_USER_TRUST_QUOTA_EXCEEDED",
+    "code": 1933,
+    "msg": "The total delegated trust creation quota has been exceeded."
+  },
+  {
+    "title": "ERROR_USER_DELETE_TRUST_QUOTA_EXCEEDED",
+    "code": 1934,
+    "msg": "The current user&#39;s delegated trust deletion quota has been exceeded."
+  },
+  {
+    "title": "ERROR_AUTHENTICATION_FIREWALL_FAILED",
+    "code": 1935,
+    "msg": "The computer you are signing into is protected by an authentication firewall. The specified account is not allowed to authenticate to the computer."
+  },
+  {
+    "title": "ERROR_REMOTE_PRINT_CONNECTIONS_BLOCKED",
+    "code": 1936,
+    "msg": "Remote connections to the Print Spooler are blocked by a policy set on your machine."
+  },
+  {
+    "title": "ERROR_NTLM_BLOCKED",
+    "code": 1937,
+    "msg": "Authentication failed because NTLM authentication has been disabled."
+  },
+  {
+    "title": "ERROR_PASSWORD_CHANGE_REQUIRED",
+    "code": 1938,
+    "msg": "Logon Failure: EAS policy requires that the user change their password before this operation can be performed."
+  },
+  {
+    "title": "ERROR_INVALID_PIXEL_FORMAT",
+    "code": 2000,
+    "msg": "The pixel format is invalid."
+  },
+  {
+    "title": "ERROR_BAD_DRIVER",
+    "code": 2001,
+    "msg": "The specified driver is invalid."
+  },
+  {
+    "title": "ERROR_INVALID_WINDOW_STYLE",
+    "code": 2002,
+    "msg": "The window style or class attribute is invalid for this operation."
+  },
+  {
+    "title": "ERROR_METAFILE_NOT_SUPPORTED",
+    "code": 2003,
+    "msg": "The requested metafile operation is not supported."
+  },
+  {
+    "title": "ERROR_TRANSFORM_NOT_SUPPORTED",
+    "code": 2004,
+    "msg": "The requested transformation operation is not supported."
+  },
+  {
+    "title": "ERROR_CLIPPING_NOT_SUPPORTED",
+    "code": 2005,
+    "msg": "The requested clipping operation is not supported."
+  },
+  {
+    "title": "ERROR_INVALID_CMM",
+    "code": 2010,
+    "msg": "The specified color management module is invalid."
+  },
+  {
+    "title": "ERROR_INVALID_PROFILE",
+    "code": 2011,
+    "msg": "The specified color profile is invalid."
+  },
+  {
+    "title": "ERROR_TAG_NOT_FOUND",
+    "code": 2012,
+    "msg": "The specified tag was not found."
+  },
+  {
+    "title": "ERROR_TAG_NOT_PRESENT",
+    "code": 2013,
+    "msg": "A required tag is not present."
+  },
+  {
+    "title": "ERROR_DUPLICATE_TAG",
+    "code": 2014,
+    "msg": "The specified tag is already present."
+  },
+  {
+    "title": "ERROR_PROFILE_NOT_ASSOCIATED_WITH_DEVICE",
+    "code": 2015,
+    "msg": "The specified color profile is not associated with the specified device."
+  },
+  {
+    "title": "ERROR_PROFILE_NOT_FOUND",
+    "code": 2016,
+    "msg": "The specified color profile was not found."
+  },
+  {
+    "title": "ERROR_INVALID_COLORSPACE",
+    "code": 2017,
+    "msg": "The specified color space is invalid."
+  },
+  {
+    "title": "ERROR_ICM_NOT_ENABLED",
+    "code": 2018,
+    "msg": "Image Color Management is not enabled."
+  },
+  {
+    "title": "ERROR_DELETING_ICM_XFORM",
+    "code": 2019,
+    "msg": "There was an error while deleting the color transform."
+  },
+  {
+    "title": "ERROR_INVALID_TRANSFORM",
+    "code": 2020,
+    "msg": "The specified color transform is invalid."
+  },
+  {
+    "title": "ERROR_COLORSPACE_MISMATCH",
+    "code": 2021,
+    "msg": "The specified transform does not match the bitmap&#39;s color space."
+  },
+  {
+    "title": "ERROR_INVALID_COLORINDEX",
+    "code": 2022,
+    "msg": "The specified named color index is not present in the profile."
+  },
+  {
+    "title": "ERROR_PROFILE_DOES_NOT_MATCH_DEVICE",
+    "code": 2023,
+    "msg": "The specified profile is intended for a device of a different type than the specified device."
+  },
+  {
+    "title": "ERROR_CONNECTED_OTHER_PASSWORD",
+    "code": 2108,
+    "msg": "The network connection was made successfully, but the user had to be prompted for a password other than the one originally specified."
+  },
+  {
+    "title": "ERROR_CONNECTED_OTHER_PASSWORD_DEFAULT",
+    "code": 2109,
+    "msg": "The network connection was made successfully using default credentials."
+  },
+  {
+    "title": "ERROR_BAD_USERNAME",
+    "code": 2202,
+    "msg": "The specified username is invalid."
+  },
+  {
+    "title": "ERROR_NOT_CONNECTED",
+    "code": 2250,
+    "msg": "This network connection does not exist."
+  },
+  {
+    "title": "ERROR_OPEN_FILES",
+    "code": 2401,
+    "msg": "This network connection has files open or requests pending."
+  },
+  {
+    "title": "ERROR_ACTIVE_CONNECTIONS",
+    "code": 2402,
+    "msg": "Active connections still exist."
+  },
+  {
+    "title": "ERROR_DEVICE_IN_USE",
+    "code": 2404,
+    "msg": "The device is in use by an active process and cannot be disconnected."
+  },
+  {
+    "title": "ERROR_UNKNOWN_PRINT_MONITOR",
+    "code": 3000,
+    "msg": "The specified print monitor is unknown."
+  },
+  {
+    "title": "ERROR_PRINTER_DRIVER_IN_USE",
+    "code": 3001,
+    "msg": "The specified printer driver is currently in use."
+  },
+  {
+    "title": "ERROR_SPOOL_FILE_NOT_FOUND",
+    "code": 3002,
+    "msg": "The spool file was not found."
+  },
+  {
+    "title": "ERROR_SPL_NO_STARTDOC",
+    "code": 3003,
+    "msg": "A StartDocPrinter call was not issued."
+  },
+  {
+    "title": "ERROR_SPL_NO_ADDJOB",
+    "code": 3004,
+    "msg": "An AddJob call was not issued."
+  },
+  {
+    "title": "ERROR_PRINT_PROCESSOR_ALREADY_INSTALLED",
+    "code": 3005,
+    "msg": "The specified print processor has already been installed."
+  },
+  {
+    "title": "ERROR_PRINT_MONITOR_ALREADY_INSTALLED",
+    "code": 3006,
+    "msg": "The specified print monitor has already been installed."
+  },
+  {
+    "title": "ERROR_INVALID_PRINT_MONITOR",
+    "code": 3007,
+    "msg": "The specified print monitor does not have the required functions."
+  },
+  {
+    "title": "ERROR_PRINT_MONITOR_IN_USE",
+    "code": 3008,
+    "msg": "The specified print monitor is currently in use."
+  },
+  {
+    "title": "ERROR_PRINTER_HAS_JOBS_QUEUED",
+    "code": 3009,
+    "msg": "The requested operation is not allowed when there are jobs queued to the printer."
+  },
+  {
+    "title": "ERROR_SUCCESS_REBOOT_REQUIRED",
+    "code": 3010,
+    "msg": "The requested operation is successful. Changes will not be effective until the system is rebooted."
+  },
+  {
+    "title": "ERROR_SUCCESS_RESTART_REQUIRED",
+    "code": 3011,
+    "msg": "The requested operation is successful. Changes will not be effective until the service is restarted."
+  },
+  {
+    "title": "ERROR_PRINTER_NOT_FOUND",
+    "code": 3012,
+    "msg": "No printers were found."
+  },
+  {
+    "title": "ERROR_PRINTER_DRIVER_WARNED",
+    "code": 3013,
+    "msg": "The printer driver is known to be unreliable."
+  },
+  {
+    "title": "ERROR_PRINTER_DRIVER_BLOCKED",
+    "code": 3014,
+    "msg": "The printer driver is known to harm the system."
+  },
+  {
+    "title": "ERROR_PRINTER_DRIVER_PACKAGE_IN_USE",
+    "code": 3015,
+    "msg": "The specified printer driver package is currently in use."
+  },
+  {
+    "title": "ERROR_CORE_DRIVER_PACKAGE_NOT_FOUND",
+    "code": 3016,
+    "msg": "Unable to find a core driver package that is required by the printer driver package."
+  },
+  {
+    "title": "ERROR_FAIL_REBOOT_REQUIRED",
+    "code": 3017,
+    "msg": "The requested operation failed. A system reboot is required to roll back changes made."
+  },
+  {
+    "title": "ERROR_FAIL_REBOOT_INITIATED",
+    "code": 3018,
+    "msg": "The requested operation failed. A system reboot has been initiated to roll back changes made."
+  },
+  {
+    "title": "ERROR_PRINTER_DRIVER_DOWNLOAD_NEEDED",
+    "code": 3019,
+    "msg": "The specified printer driver was not found on the system and needs to be downloaded."
+  },
+  {
+    "title": "ERROR_PRINT_JOB_RESTART_REQUIRED",
+    "code": 3020,
+    "msg": "The requested print job has failed to print. A print system update requires the job to be resubmitted."
+  },
+  {
+    "title": "ERROR_INVALID_PRINTER_DRIVER_MANIFEST",
+    "code": 3021,
+    "msg": "The printer driver does not contain a valid manifest, or contains too many manifests."
+  },
+  {
+    "title": "ERROR_PRINTER_NOT_SHAREABLE",
+    "code": 3022,
+    "msg": "The specified printer cannot be shared."
+  },
+  {
+    "title": "ERROR_REQUEST_PAUSED",
+    "code": 3050,
+    "msg": "The operation was paused."
+  },
+  {
+    "title": "ERROR_IO_REISSUE_AS_CACHED",
+    "code": 3950,
+    "msg": "Reissue the given operation as a cached IO operation."
+  }
+]
