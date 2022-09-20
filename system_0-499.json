@@ -1,0 +1,1222 @@
+[
+  {
+    "title": "ERROR_SUCCESS",
+    "code": 0,
+    "msg": "The operation completed successfully."
+  },
+  {
+    "title": "ERROR_INVALID_FUNCTION",
+    "code": 1,
+    "msg": "Incorrect function."
+  },
+  {
+    "title": "ERROR_FILE_NOT_FOUND",
+    "code": 2,
+    "msg": "The system cannot find the file specified."
+  },
+  {
+    "title": "ERROR_PATH_NOT_FOUND",
+    "code": 3,
+    "msg": "The system cannot find the path specified."
+  },
+  {
+    "title": "ERROR_TOO_MANY_OPEN_FILES",
+    "code": 4,
+    "msg": "The system cannot open the file."
+  },
+  {
+    "title": "ERROR_ACCESS_DENIED",
+    "code": 5,
+    "msg": "Access is denied."
+  },
+  {
+    "title": "ERROR_INVALID_HANDLE",
+    "code": 6,
+    "msg": "The handle is invalid."
+  },
+  {
+    "title": "ERROR_ARENA_TRASHED",
+    "code": 7,
+    "msg": "The storage control blocks were destroyed."
+  },
+  {
+    "title": "ERROR_NOT_ENOUGH_MEMORY",
+    "code": 8,
+    "msg": "Not enough memory resources are available to process this command."
+  },
+  {
+    "title": "ERROR_INVALID_BLOCK",
+    "code": 9,
+    "msg": "The storage control block address is invalid."
+  },
+  {
+    "title": "ERROR_BAD_ENVIRONMENT",
+    "code": 10,
+    "msg": "The environment is incorrect."
+  },
+  {
+    "title": "ERROR_BAD_FORMAT",
+    "code": 11,
+    "msg": "An attempt was made to load a program with an incorrect format."
+  },
+  {
+    "title": "ERROR_INVALID_ACCESS",
+    "code": 12,
+    "msg": "The access code is invalid."
+  },
+  {
+    "title": "ERROR_INVALID_DATA",
+    "code": 13,
+    "msg": "The data is invalid."
+  },
+  {
+    "title": "ERROR_OUTOFMEMORY",
+    "code": 14,
+    "msg": "Not enough storage is available to complete this operation."
+  },
+  {
+    "title": "ERROR_INVALID_DRIVE",
+    "code": 15,
+    "msg": "The system cannot find the drive specified."
+  },
+  {
+    "title": "ERROR_CURRENT_DIRECTORY",
+    "code": 16,
+    "msg": "The directory cannot be removed."
+  },
+  {
+    "title": "ERROR_NOT_SAME_DEVICE",
+    "code": 17,
+    "msg": "The system cannot move the file to a different disk drive."
+  },
+  {
+    "title": "ERROR_NO_MORE_FILES",
+    "code": 18,
+    "msg": "There are no more files."
+  },
+  {
+    "title": "ERROR_WRITE_PROTECT",
+    "code": 19,
+    "msg": "The media is write protected."
+  },
+  {
+    "title": "ERROR_BAD_UNIT",
+    "code": 20,
+    "msg": "The system cannot find the device specified."
+  },
+  {
+    "title": "ERROR_NOT_READY",
+    "code": 21,
+    "msg": "The device is not ready."
+  },
+  {
+    "title": "ERROR_BAD_COMMAND",
+    "code": 22,
+    "msg": "The device does not recognize the command."
+  },
+  {
+    "title": "ERROR_CRC",
+    "code": 23,
+    "msg": "Data error (cyclic redundancy check)."
+  },
+  {
+    "title": "ERROR_BAD_LENGTH",
+    "code": 24,
+    "msg": "The program issued a command but the command length is incorrect."
+  },
+  {
+    "title": "ERROR_SEEK",
+    "code": 25,
+    "msg": "The drive cannot locate a specific area or track on the disk."
+  },
+  {
+    "title": "ERROR_NOT_DOS_DISK",
+    "code": 26,
+    "msg": "The specified disk or diskette cannot be accessed."
+  },
+  {
+    "title": "ERROR_SECTOR_NOT_FOUND",
+    "code": 27,
+    "msg": "The drive cannot find the sector requested."
+  },
+  {
+    "title": "ERROR_OUT_OF_PAPER",
+    "code": 28,
+    "msg": "The printer is out of paper."
+  },
+  {
+    "title": "ERROR_WRITE_FAULT",
+    "code": 29,
+    "msg": "The system cannot write to the specified device."
+  },
+  {
+    "title": "ERROR_READ_FAULT",
+    "code": 30,
+    "msg": "The system cannot read from the specified device."
+  },
+  {
+    "title": "ERROR_GEN_FAILURE",
+    "code": 31,
+    "msg": "A device attached to the system is not functioning."
+  },
+  {
+    "title": "ERROR_SHARING_VIOLATION",
+    "code": 32,
+    "msg": "The process cannot access the file because it is being used by another process."
+  },
+  {
+    "title": "ERROR_LOCK_VIOLATION",
+    "code": 33,
+    "msg": "The process cannot access the file because another process has locked a portion of the file."
+  },
+  {
+    "title": "ERROR_WRONG_DISK",
+    "code": 34,
+    "msg": "The wrong diskette is in the drive. Insert %2 (Volume Serial Number: %3) into drive %1."
+  },
+  {
+    "title": "ERROR_SHARING_BUFFER_EXCEEDED",
+    "code": 36,
+    "msg": "Too many files opened for sharing."
+  },
+  {
+    "title": "ERROR_HANDLE_EOF",
+    "code": 38,
+    "msg": "Reached the end of the file."
+  },
+  {
+    "title": "ERROR_HANDLE_DISK_FULL",
+    "code": 39,
+    "msg": "The disk is full."
+  },
+  {
+    "title": "ERROR_NOT_SUPPORTED",
+    "code": 50,
+    "msg": "The request is not supported."
+  },
+  {
+    "title": "ERROR_REM_NOT_LIST",
+    "code": 51,
+    "msg": "Windows cannot find the network path. Verify that the network path is correct and the destination computer is not busy or turned off. If Windows still cannot find the network path, contact your network administrator."
+  },
+  {
+    "title": "ERROR_DUP_NAME",
+    "code": 52,
+    "msg": "You were not connected because a duplicate name exists on the network. If joining a domain, go to System in Control Panel to change the computer name and try again. If joining a workgroup, choose another workgroup name."
+  },
+  {
+    "title": "ERROR_BAD_NETPATH",
+    "code": 53,
+    "msg": "The network path was not found."
+  },
+  {
+    "title": "ERROR_NETWORK_BUSY",
+    "code": 54,
+    "msg": "The network is busy."
+  },
+  {
+    "title": "ERROR_DEV_NOT_EXIST",
+    "code": 55,
+    "msg": "The specified network resource or device is no longer available."
+  },
+  {
+    "title": "ERROR_TOO_MANY_CMDS",
+    "code": 56,
+    "msg": "The network BIOS command limit has been reached."
+  },
+  {
+    "title": "ERROR_ADAP_HDW_ERR",
+    "code": 57,
+    "msg": "A network adapter hardware error occurred."
+  },
+  {
+    "title": "ERROR_BAD_NET_RESP",
+    "code": 58,
+    "msg": "The specified server cannot perform the requested operation."
+  },
+  {
+    "title": "ERROR_UNEXP_NET_ERR",
+    "code": 59,
+    "msg": "An unexpected network error occurred."
+  },
+  {
+    "title": "ERROR_BAD_REM_ADAP",
+    "code": 60,
+    "msg": "The remote adapter is not compatible."
+  },
+  {
+    "title": "ERROR_PRINTQ_FULL",
+    "code": 61,
+    "msg": "The printer queue is full."
+  },
+  {
+    "title": "ERROR_NO_SPOOL_SPACE",
+    "code": 62,
+    "msg": "Space to store the file waiting to be printed is not available on the server."
+  },
+  {
+    "title": "ERROR_PRINT_CANCELLED",
+    "code": 63,
+    "msg": "Your file waiting to be printed was deleted."
+  },
+  {
+    "title": "ERROR_NETNAME_DELETED",
+    "code": 64,
+    "msg": "The specified network name is no longer available."
+  },
+  {
+    "title": "ERROR_NETWORK_ACCESS_DENIED",
+    "code": 65,
+    "msg": "Network access is denied."
+  },
+  {
+    "title": "ERROR_BAD_DEV_TYPE",
+    "code": 66,
+    "msg": "The network resource type is not correct."
+  },
+  {
+    "title": "ERROR_BAD_NET_NAME",
+    "code": 67,
+    "msg": "The network name cannot be found."
+  },
+  {
+    "title": "ERROR_TOO_MANY_NAMES",
+    "code": 68,
+    "msg": "The name limit for the local computer network adapter card was exceeded."
+  },
+  {
+    "title": "ERROR_TOO_MANY_SESS",
+    "code": 69,
+    "msg": "The network BIOS session limit was exceeded."
+  },
+  {
+    "title": "ERROR_SHARING_PAUSED",
+    "code": 70,
+    "msg": "The remote server has been paused or is in the process of being started."
+  },
+  {
+    "title": "ERROR_REQ_NOT_ACCEP",
+    "code": 71,
+    "msg": "No more connections can be made to this remote computer at this time because there are already as many connections as the computer can accept."
+  },
+  {
+    "title": "ERROR_REDIR_PAUSED",
+    "code": 72,
+    "msg": "The specified printer or disk device has been paused."
+  },
+  {
+    "title": "ERROR_FILE_EXISTS",
+    "code": 80,
+    "msg": "The file exists."
+  },
+  {
+    "title": "ERROR_CANNOT_MAKE",
+    "code": 82,
+    "msg": "The directory or file cannot be created."
+  },
+  {
+    "title": "ERROR_FAIL_I24",
+    "code": 83,
+    "msg": "Fail on INT 24."
+  },
+  {
+    "title": "ERROR_OUT_OF_STRUCTURES",
+    "code": 84,
+    "msg": "Storage to process this request is not available."
+  },
+  {
+    "title": "ERROR_ALREADY_ASSIGNED",
+    "code": 85,
+    "msg": "The local device name is already in use."
+  },
+  {
+    "title": "ERROR_INVALID_PASSWORD",
+    "code": 86,
+    "msg": "The specified network password is not correct."
+  },
+  {
+    "title": "ERROR_INVALID_PARAMETER",
+    "code": 87,
+    "msg": "The parameter is incorrect."
+  },
+  {
+    "title": "ERROR_NET_WRITE_FAULT",
+    "code": 88,
+    "msg": "A write fault occurred on the network."
+  },
+  {
+    "title": "ERROR_NO_PROC_SLOTS",
+    "code": 89,
+    "msg": "The system cannot start another process at this time."
+  },
+  {
+    "title": "ERROR_TOO_MANY_SEMAPHORES",
+    "code": 100,
+    "msg": "Cannot create another system semaphore."
+  },
+  {
+    "title": "ERROR_EXCL_SEM_ALREADY_OWNED",
+    "code": 101,
+    "msg": "The exclusive semaphore is owned by another process."
+  },
+  {
+    "title": "ERROR_SEM_IS_SET",
+    "code": 102,
+    "msg": "The semaphore is set and cannot be closed."
+  },
+  {
+    "title": "ERROR_TOO_MANY_SEM_REQUESTS",
+    "code": 103,
+    "msg": "The semaphore cannot be set again."
+  },
+  {
+    "title": "ERROR_INVALID_AT_INTERRUPT_TIME",
+    "code": 104,
+    "msg": "Cannot request exclusive semaphores at interrupt time."
+  },
+  {
+    "title": "ERROR_SEM_OWNER_DIED",
+    "code": 105,
+    "msg": "The previous ownership of this semaphore has ended."
+  },
+  {
+    "title": "ERROR_SEM_USER_LIMIT",
+    "code": 106,
+    "msg": "Insert the diskette for drive %1."
+  },
+  {
+    "title": "ERROR_DISK_CHANGE",
+    "code": 107,
+    "msg": "The program stopped because an alternate diskette was not inserted."
+  },
+  {
+    "title": "ERROR_DRIVE_LOCKED",
+    "code": 108,
+    "msg": "The disk is in use or locked by another process."
+  },
+  {
+    "title": "ERROR_BROKEN_PIPE",
+    "code": 109,
+    "msg": "The pipe has been ended."
+  },
+  {
+    "title": "ERROR_OPEN_FAILED",
+    "code": 110,
+    "msg": "The system cannot open the device or file specified."
+  },
+  {
+    "title": "ERROR_BUFFER_OVERFLOW",
+    "code": 111,
+    "msg": "The file name is too long."
+  },
+  {
+    "title": "ERROR_DISK_FULL",
+    "code": 112,
+    "msg": "There is not enough space on the disk."
+  },
+  {
+    "title": "ERROR_NO_MORE_SEARCH_HANDLES",
+    "code": 113,
+    "msg": "No more internal file identifiers available."
+  },
+  {
+    "title": "ERROR_INVALID_TARGET_HANDLE",
+    "code": 114,
+    "msg": "The target internal file identifier is incorrect."
+  },
+  {
+    "title": "ERROR_INVALID_CATEGORY",
+    "code": 117,
+    "msg": "The IOCTL call made by the application program is not correct."
+  },
+  {
+    "title": "ERROR_INVALID_VERIFY_SWITCH",
+    "code": 118,
+    "msg": "The verify-on-write switch parameter value is not correct."
+  },
+  {
+    "title": "ERROR_BAD_DRIVER_LEVEL",
+    "code": 119,
+    "msg": "The system does not support the command requested."
+  },
+  {
+    "title": "ERROR_CALL_NOT_IMPLEMENTED",
+    "code": 120,
+    "msg": "This function is not supported on this system."
+  },
+  {
+    "title": "ERROR_SEM_TIMEOUT",
+    "code": 121,
+    "msg": "The semaphore timeout period has expired."
+  },
+  {
+    "title": "ERROR_INSUFFICIENT_BUFFER",
+    "code": 122,
+    "msg": "The data area passed to a system call is too small."
+  },
+  {
+    "title": "ERROR_INVALID_NAME",
+    "code": 123,
+    "msg": "The filename, directory name, or volume label syntax is incorrect."
+  },
+  {
+    "title": "ERROR_INVALID_LEVEL",
+    "code": 124,
+    "msg": "The system call level is not correct."
+  },
+  {
+    "title": "ERROR_NO_VOLUME_LABEL",
+    "code": 125,
+    "msg": "The disk has no volume label."
+  },
+  {
+    "title": "ERROR_MOD_NOT_FOUND",
+    "code": 126,
+    "msg": "The specified module could not be found."
+  },
+  {
+    "title": "ERROR_PROC_NOT_FOUND",
+    "code": 127,
+    "msg": "The specified procedure could not be found."
+  },
+  {
+    "title": "ERROR_WAIT_NO_CHILDREN",
+    "code": 128,
+    "msg": "There are no child processes to wait for."
+  },
+  {
+    "title": "ERROR_CHILD_NOT_COMPLETE",
+    "code": 129,
+    "msg": "The %1 application cannot be run in Win32 mode."
+  },
+  {
+    "title": "ERROR_DIRECT_ACCESS_HANDLE",
+    "code": 130,
+    "msg": "Attempt to use a file handle to an open disk partition for an operation other than raw disk I/O."
+  },
+  {
+    "title": "ERROR_NEGATIVE_SEEK",
+    "code": 131,
+    "msg": "An attempt was made to move the file pointer before the beginning of the file."
+  },
+  {
+    "title": "ERROR_SEEK_ON_DEVICE",
+    "code": 132,
+    "msg": "The file pointer cannot be set on the specified device or file."
+  },
+  {
+    "title": "ERROR_IS_JOIN_TARGET",
+    "code": 133,
+    "msg": "A JOIN or SUBST command cannot be used for a drive that contains previously joined drives."
+  },
+  {
+    "title": "ERROR_IS_JOINED",
+    "code": 134,
+    "msg": "An attempt was made to use a JOIN or SUBST command on a drive that has already been joined."
+  },
+  {
+    "title": "ERROR_IS_SUBSTED",
+    "code": 135,
+    "msg": "An attempt was made to use a JOIN or SUBST command on a drive that has already been substituted."
+  },
+  {
+    "title": "ERROR_NOT_JOINED",
+    "code": 136,
+    "msg": "The system tried to delete the JOIN of a drive that is not joined."
+  },
+  {
+    "title": "ERROR_NOT_SUBSTED",
+    "code": 137,
+    "msg": "The system tried to delete the substitution of a drive that is not substituted."
+  },
+  {
+    "title": "ERROR_JOIN_TO_JOIN",
+    "code": 138,
+    "msg": "The system tried to join a drive to a directory on a joined drive."
+  },
+  {
+    "title": "ERROR_SUBST_TO_SUBST",
+    "code": 139,
+    "msg": "The system tried to substitute a drive to a directory on a substituted drive."
+  },
+  {
+    "title": "ERROR_JOIN_TO_SUBST",
+    "code": 140,
+    "msg": "The system tried to join a drive to a directory on a substituted drive."
+  },
+  {
+    "title": "ERROR_SUBST_TO_JOIN",
+    "code": 141,
+    "msg": "The system tried to SUBST a drive to a directory on a joined drive."
+  },
+  {
+    "title": "ERROR_BUSY_DRIVE",
+    "code": 142,
+    "msg": "The system cannot perform a JOIN or SUBST at this time."
+  },
+  {
+    "title": "ERROR_SAME_DRIVE",
+    "code": 143,
+    "msg": "The system cannot join or substitute a drive to or for a directory on the same drive."
+  },
+  {
+    "title": "ERROR_DIR_NOT_ROOT",
+    "code": 144,
+    "msg": "The directory is not a subdirectory of the root directory."
+  },
+  {
+    "title": "ERROR_DIR_NOT_EMPTY",
+    "code": 145,
+    "msg": "The directory is not empty."
+  },
+  {
+    "title": "ERROR_IS_SUBST_PATH",
+    "code": 146,
+    "msg": "The path specified is being used in a substitute."
+  },
+  {
+    "title": "ERROR_IS_JOIN_PATH",
+    "code": 147,
+    "msg": "Not enough resources are available to process this command."
+  },
+  {
+    "title": "ERROR_PATH_BUSY",
+    "code": 148,
+    "msg": "The path specified cannot be used at this time."
+  },
+  {
+    "title": "ERROR_IS_SUBST_TARGET",
+    "code": 149,
+    "msg": "An attempt was made to join or substitute a drive for which a directory on the drive is the target of a previous substitute."
+  },
+  {
+    "title": "ERROR_SYSTEM_TRACE",
+    "code": 150,
+    "msg": "System trace information was not specified in your CONFIG.SYS file, or tracing is disallowed."
+  },
+  {
+    "title": "ERROR_INVALID_EVENT_COUNT",
+    "code": 151,
+    "msg": "The number of specified semaphore events for DosMuxSemWait is not correct."
+  },
+  {
+    "title": "ERROR_TOO_MANY_MUXWAITERS",
+    "code": 152,
+    "msg": "DosMuxSemWait did not execute; too many semaphores are already set."
+  },
+  {
+    "title": "ERROR_INVALID_LIST_FORMAT",
+    "code": 153,
+    "msg": "The DosMuxSemWait list is not correct."
+  },
+  {
+    "title": "ERROR_LABEL_TOO_LONG",
+    "code": 154,
+    "msg": "The volume label you entered exceeds the label character limit of the target file system."
+  },
+  {
+    "title": "ERROR_TOO_MANY_TCBS",
+    "code": 155,
+    "msg": "Cannot create another thread."
+  },
+  {
+    "title": "ERROR_SIGNAL_REFUSED",
+    "code": 156,
+    "msg": "The recipient process has refused the signal."
+  },
+  {
+    "title": "ERROR_DISCARDED",
+    "code": 157,
+    "msg": "The segment is already discarded and cannot be locked."
+  },
+  {
+    "title": "ERROR_NOT_LOCKED",
+    "code": 158,
+    "msg": "The segment is already unlocked."
+  },
+  {
+    "title": "ERROR_BAD_THREADID_ADDR",
+    "code": 159,
+    "msg": "The address for the thread ID is not correct."
+  },
+  {
+    "title": "ERROR_BAD_ARGUMENTS",
+    "code": 160,
+    "msg": "One or more arguments are not correct."
+  },
+  {
+    "title": "ERROR_BAD_PATHNAME",
+    "code": 161,
+    "msg": "The specified path is invalid."
+  },
+  {
+    "title": "ERROR_SIGNAL_PENDING",
+    "code": 162,
+    "msg": "A signal is already pending."
+  },
+  {
+    "title": "ERROR_MAX_THRDS_REACHED",
+    "code": 164,
+    "msg": "No more threads can be created in the system."
+  },
+  {
+    "title": "ERROR_LOCK_FAILED",
+    "code": 167,
+    "msg": "Unable to lock a region of a file."
+  },
+  {
+    "title": "ERROR_BUSY",
+    "code": 170,
+    "msg": "The requested resource is in use."
+  },
+  {
+    "title": "ERROR_DEVICE_SUPPORT_IN_PROGRESS",
+    "code": 171,
+    "msg": "Device&#39;s command support detection is in progress."
+  },
+  {
+    "title": "ERROR_CANCEL_VIOLATION",
+    "code": 173,
+    "msg": "A lock request was not outstanding for the supplied cancel region."
+  },
+  {
+    "title": "ERROR_ATOMIC_LOCKS_NOT_SUPPORTED",
+    "code": 174,
+    "msg": "The file system does not support atomic changes to the lock type."
+  },
+  {
+    "title": "ERROR_INVALID_SEGMENT_NUMBER",
+    "code": 180,
+    "msg": "The system detected a segment number that was not correct."
+  },
+  {
+    "title": "ERROR_INVALID_ORDINAL",
+    "code": 182,
+    "msg": "The operating system cannot run %1."
+  },
+  {
+    "title": "ERROR_ALREADY_EXISTS",
+    "code": 183,
+    "msg": "Cannot create a file when that file already exists."
+  },
+  {
+    "title": "ERROR_INVALID_FLAG_NUMBER",
+    "code": 186,
+    "msg": "The flag passed is not correct."
+  },
+  {
+    "title": "ERROR_SEM_NOT_FOUND",
+    "code": 187,
+    "msg": "The specified system semaphore name was not found."
+  },
+  {
+    "title": "ERROR_INVALID_STARTING_CODESEG",
+    "code": 188,
+    "msg": "The operating system cannot run %1."
+  },
+  {
+    "title": "ERROR_INVALID_STACKSEG",
+    "code": 189,
+    "msg": "The operating system cannot run %1."
+  },
+  {
+    "title": "ERROR_INVALID_MODULETYPE",
+    "code": 190,
+    "msg": "The operating system cannot run %1."
+  },
+  {
+    "title": "ERROR_INVALID_EXE_SIGNATURE",
+    "code": 191,
+    "msg": "Cannot run %1 in Win32 mode."
+  },
+  {
+    "title": "ERROR_EXE_MARKED_INVALID",
+    "code": 192,
+    "msg": "The operating system cannot run %1."
+  },
+  {
+    "title": "ERROR_BAD_EXE_FORMAT",
+    "code": 193,
+    "msg": "%1 is not a valid Win32 application."
+  },
+  {
+    "title": "ERROR_ITERATED_DATA_EXCEEDS_64k",
+    "code": 194,
+    "msg": "The operating system cannot run %1."
+  },
+  {
+    "title": "ERROR_INVALID_MINALLOCSIZE",
+    "code": 195,
+    "msg": "The operating system cannot run %1."
+  },
+  {
+    "title": "ERROR_DYNLINK_FROM_INVALID_RING",
+    "code": 196,
+    "msg": "The operating system cannot run this application program."
+  },
+  {
+    "title": "ERROR_IOPL_NOT_ENABLED",
+    "code": 197,
+    "msg": "The operating system is not presently configured to run this application."
+  },
+  {
+    "title": "ERROR_INVALID_SEGDPL",
+    "code": 198,
+    "msg": "The operating system cannot run %1."
+  },
+  {
+    "title": "ERROR_AUTODATASEG_EXCEEDS_64k",
+    "code": 199,
+    "msg": "The operating system cannot run this application program."
+  },
+  {
+    "title": "ERROR_RING2SEG_MUST_BE_MOVABLE",
+    "code": 200,
+    "msg": "The code segment cannot be greater than or equal to 64K."
+  },
+  {
+    "title": "ERROR_RELOC_CHAIN_XEEDS_SEGLIM",
+    "code": 201,
+    "msg": "The operating system cannot run %1."
+  },
+  {
+    "title": "ERROR_INFLOOP_IN_RELOC_CHAIN",
+    "code": 202,
+    "msg": "The operating system cannot run %1."
+  },
+  {
+    "title": "ERROR_ENVVAR_NOT_FOUND",
+    "code": 203,
+    "msg": "The system could not find the environment option that was entered."
+  },
+  {
+    "title": "ERROR_NO_SIGNAL_SENT",
+    "code": 205,
+    "msg": "No process in the command subtree has a signal handler."
+  },
+  {
+    "title": "ERROR_FILENAME_EXCED_RANGE",
+    "code": 206,
+    "msg": "The filename or extension is too long."
+  },
+  {
+    "title": "ERROR_RING2_STACK_IN_USE",
+    "code": 207,
+    "msg": "The ring 2 stack is in use."
+  },
+  {
+    "title": "ERROR_META_EXPANSION_TOO_LONG",
+    "code": 208,
+    "msg": "The global filename characters, * or ?, are entered incorrectly or too many global filename characters are specified."
+  },
+  {
+    "title": "ERROR_INVALID_SIGNAL_NUMBER",
+    "code": 209,
+    "msg": "The signal being posted is not correct."
+  },
+  {
+    "title": "ERROR_THREAD_1_INACTIVE",
+    "code": 210,
+    "msg": "The signal handler cannot be set."
+  },
+  {
+    "title": "ERROR_LOCKED",
+    "code": 212,
+    "msg": "The segment is locked and cannot be reallocated."
+  },
+  {
+    "title": "ERROR_TOO_MANY_MODULES",
+    "code": 214,
+    "msg": "Too many dynamic-link modules are attached to this program or dynamic-link module."
+  },
+  {
+    "title": "ERROR_NESTING_NOT_ALLOWED",
+    "code": 215,
+    "msg": "Cannot nest calls to LoadModule."
+  },
+  {
+    "title": "ERROR_EXE_MACHINE_TYPE_MISMATCH",
+    "code": 216,
+    "msg": "This version of %1 is not compatible with the version of Windows you&#39;re running. Check your computer&#39;s system information and then contact the software publisher."
+  },
+  {
+    "title": "ERROR_EXE_CANNOT_MODIFY_SIGNED_BINARY",
+    "code": 217,
+    "msg": "The image file %1 is signed, unable to modify."
+  },
+  {
+    "title": "ERROR_EXE_CANNOT_MODIFY_STRONG_SIGNED_BINARY",
+    "code": 218,
+    "msg": "The image file %1 is strong signed, unable to modify."
+  },
+  {
+    "title": "ERROR_FILE_CHECKED_OUT",
+    "code": 220,
+    "msg": "This file is checked out or locked for editing by another user."
+  },
+  {
+    "title": "ERROR_CHECKOUT_REQUIRED",
+    "code": 221,
+    "msg": "The file must be checked out before saving changes."
+  },
+  {
+    "title": "ERROR_BAD_FILE_TYPE",
+    "code": 222,
+    "msg": "The file type being saved or retrieved has been blocked."
+  },
+  {
+    "title": "ERROR_FILE_TOO_LARGE",
+    "code": 223,
+    "msg": "The file size exceeds the limit allowed and cannot be saved."
+  },
+  {
+    "title": "ERROR_FORMS_AUTH_REQUIRED",
+    "code": 224,
+    "msg": "Access Denied. Before opening files in this location, you must first add the web site to your trusted sites list, browse to the web site, and select the option to login automatically."
+  },
+  {
+    "title": "ERROR_VIRUS_INFECTED",
+    "code": 225,
+    "msg": "Operation did not complete successfully because the file contains a virus or potentially unwanted software."
+  },
+  {
+    "title": "ERROR_VIRUS_DELETED",
+    "code": 226,
+    "msg": "This file contains a virus or potentially unwanted software and cannot be opened. Due to the nature of this virus or potentially unwanted software, the file has been removed from this location."
+  },
+  {
+    "title": "ERROR_PIPE_LOCAL",
+    "code": 229,
+    "msg": "The pipe is local."
+  },
+  {
+    "title": "ERROR_BAD_PIPE",
+    "code": 230,
+    "msg": "The pipe state is invalid."
+  },
+  {
+    "title": "ERROR_PIPE_BUSY",
+    "code": 231,
+    "msg": "All pipe instances are busy."
+  },
+  {
+    "title": "ERROR_NO_DATA",
+    "code": 232,
+    "msg": "The pipe is being closed."
+  },
+  {
+    "title": "ERROR_PIPE_NOT_CONNECTED",
+    "code": 233,
+    "msg": "No process is on the other end of the pipe."
+  },
+  {
+    "title": "ERROR_MORE_DATA",
+    "code": 234,
+    "msg": "More data is available."
+  },
+  {
+    "title": "ERROR_VC_DISCONNECTED",
+    "code": 240,
+    "msg": "The session was canceled."
+  },
+  {
+    "title": "ERROR_INVALID_EA_NAME",
+    "code": 254,
+    "msg": "The specified extended attribute name was invalid."
+  },
+  {
+    "title": "ERROR_EA_LIST_INCONSISTENT",
+    "code": 255,
+    "msg": "The extended attributes are inconsistent."
+  },
+  {
+    "title": "WAIT_TIMEOUT",
+    "code": 258,
+    "msg": "The wait operation timed out."
+  },
+  {
+    "title": "ERROR_NO_MORE_ITEMS",
+    "code": 259,
+    "msg": "No more data is available."
+  },
+  {
+    "title": "ERROR_CANNOT_COPY",
+    "code": 266,
+    "msg": "The copy functions cannot be used."
+  },
+  {
+    "title": "ERROR_DIRECTORY",
+    "code": 267,
+    "msg": "The directory name is invalid."
+  },
+  {
+    "title": "ERROR_EAS_DIDNT_FIT",
+    "code": 275,
+    "msg": "The extended attributes did not fit in the buffer."
+  },
+  {
+    "title": "ERROR_EA_FILE_CORRUPT",
+    "code": 276,
+    "msg": "The extended attribute file on the mounted file system is corrupt."
+  },
+  {
+    "title": "ERROR_EA_TABLE_FULL",
+    "code": 277,
+    "msg": "The extended attribute table file is full."
+  },
+  {
+    "title": "ERROR_INVALID_EA_HANDLE",
+    "code": 278,
+    "msg": "The specified extended attribute handle is invalid."
+  },
+  {
+    "title": "ERROR_EAS_NOT_SUPPORTED",
+    "code": 282,
+    "msg": "The mounted file system does not support extended attributes."
+  },
+  {
+    "title": "ERROR_NOT_OWNER",
+    "code": 288,
+    "msg": "Attempt to release mutex not owned by caller."
+  },
+  {
+    "title": "ERROR_TOO_MANY_POSTS",
+    "code": 298,
+    "msg": "Too many posts were made to a semaphore."
+  },
+  {
+    "title": "ERROR_PARTIAL_COPY",
+    "code": 299,
+    "msg": "Only part of a ReadProcessMemory or WriteProcessMemory request was completed."
+  },
+  {
+    "title": "ERROR_OPLOCK_NOT_GRANTED",
+    "code": 300,
+    "msg": "The oplock request is denied."
+  },
+  {
+    "title": "ERROR_INVALID_OPLOCK_PROTOCOL",
+    "code": 301,
+    "msg": "An invalid oplock acknowledgment was received by the system."
+  },
+  {
+    "title": "ERROR_DISK_TOO_FRAGMENTED",
+    "code": 302,
+    "msg": "The volume is too fragmented to complete this operation."
+  },
+  {
+    "title": "ERROR_DELETE_PENDING",
+    "code": 303,
+    "msg": "The file cannot be opened because it is in the process of being deleted."
+  },
+  {
+    "title": "ERROR_INCOMPATIBLE_WITH_GLOBAL_SHORT_NAME_REGISTRY_SETTING",
+    "code": 304,
+    "msg": "Short name settings may not be changed on this volume due to the global registry setting."
+  },
+  {
+    "title": "ERROR_SHORT_NAMES_NOT_ENABLED_ON_VOLUME",
+    "code": 305,
+    "msg": "Short names are not enabled on this volume."
+  },
+  {
+    "title": "ERROR_SECURITY_STREAM_IS_INCONSISTENT",
+    "code": 306,
+    "msg": "The security stream for the given volume is in an inconsistent state. Please run CHKDSK on the volume."
+  },
+  {
+    "title": "ERROR_INVALID_LOCK_RANGE",
+    "code": 307,
+    "msg": "A requested file lock operation cannot be processed due to an invalid byte range."
+  },
+  {
+    "title": "ERROR_IMAGE_SUBSYSTEM_NOT_PRESENT",
+    "code": 308,
+    "msg": "The subsystem needed to support the image type is not present."
+  },
+  {
+    "title": "ERROR_NOTIFICATION_GUID_ALREADY_DEFINED",
+    "code": 309,
+    "msg": "The specified file already has a notification GUID associated with it."
+  },
+  {
+    "title": "ERROR_INVALID_EXCEPTION_HANDLER",
+    "code": 310,
+    "msg": "An invalid exception handler routine has been detected."
+  },
+  {
+    "title": "ERROR_DUPLICATE_PRIVILEGES",
+    "code": 311,
+    "msg": "Duplicate privileges were specified for the token."
+  },
+  {
+    "title": "ERROR_NO_RANGES_PROCESSED",
+    "code": 312,
+    "msg": "No ranges for the specified operation were able to be processed."
+  },
+  {
+    "title": "ERROR_NOT_ALLOWED_ON_SYSTEM_FILE",
+    "code": 313,
+    "msg": "Operation is not allowed on a file system internal file."
+  },
+  {
+    "title": "ERROR_DISK_RESOURCES_EXHAUSTED",
+    "code": 314,
+    "msg": "The physical resources of this disk have been exhausted."
+  },
+  {
+    "title": "ERROR_INVALID_TOKEN",
+    "code": 315,
+    "msg": "The token representing the data is invalid."
+  },
+  {
+    "title": "ERROR_DEVICE_FEATURE_NOT_SUPPORTED",
+    "code": 316,
+    "msg": "The device does not support the command feature."
+  },
+  {
+    "title": "ERROR_MR_MID_NOT_FOUND",
+    "code": 317,
+    "msg": "The system cannot find message text for message number 0x%1 in the message file for %2."
+  },
+  {
+    "title": "ERROR_SCOPE_NOT_FOUND",
+    "code": 318,
+    "msg": "The scope specified was not found."
+  },
+  {
+    "title": "ERROR_UNDEFINED_SCOPE",
+    "code": 319,
+    "msg": "The Central Access Policy specified is not defined on the target machine."
+  },
+  {
+    "title": "ERROR_INVALID_CAP",
+    "code": 320,
+    "msg": "The Central Access Policy obtained from Active Directory is invalid."
+  },
+  {
+    "title": "ERROR_DEVICE_UNREACHABLE",
+    "code": 321,
+    "msg": "The device is unreachable."
+  },
+  {
+    "title": "ERROR_DEVICE_NO_RESOURCES",
+    "code": 322,
+    "msg": "The target device has insufficient resources to complete the operation."
+  },
+  {
+    "title": "ERROR_DATA_CHECKSUM_ERROR",
+    "code": 323,
+    "msg": "A data integrity checksum error occurred. Data in the file stream is corrupt."
+  },
+  {
+    "title": "ERROR_INTERMIXED_KERNEL_EA_OPERATION",
+    "code": 324,
+    "msg": "An attempt was made to modify both a KERNEL and normal Extended Attribute (EA) in the same operation."
+  },
+  {
+    "title": "ERROR_FILE_LEVEL_TRIM_NOT_SUPPORTED",
+    "code": 326,
+    "msg": "Device does not support file-level TRIM."
+  },
+  {
+    "title": "ERROR_OFFSET_ALIGNMENT_VIOLATION",
+    "code": 327,
+    "msg": "The command specified a data offset that does not align to the device&#39;s granularity/alignment."
+  },
+  {
+    "title": "ERROR_INVALID_FIELD_IN_PARAMETER_LIST",
+    "code": 328,
+    "msg": "The command specified an invalid field in its parameter list."
+  },
+  {
+    "title": "ERROR_OPERATION_IN_PROGRESS",
+    "code": 329,
+    "msg": "An operation is currently in progress with the device."
+  },
+  {
+    "title": "ERROR_BAD_DEVICE_PATH",
+    "code": 330,
+    "msg": "An attempt was made to send down the command via an invalid path to the target device."
+  },
+  {
+    "title": "ERROR_TOO_MANY_DESCRIPTORS",
+    "code": 331,
+    "msg": "The command specified a number of descriptors that exceeded the maximum supported by the device."
+  },
+  {
+    "title": "ERROR_SCRUB_DATA_DISABLED",
+    "code": 332,
+    "msg": "Scrub is disabled on the specified file."
+  },
+  {
+    "title": "ERROR_NOT_REDUNDANT_STORAGE",
+    "code": 333,
+    "msg": "The storage device does not provide redundancy."
+  },
+  {
+    "title": "ERROR_RESIDENT_FILE_NOT_SUPPORTED",
+    "code": 334,
+    "msg": "An operation is not supported on a resident file."
+  },
+  {
+    "title": "ERROR_COMPRESSED_FILE_NOT_SUPPORTED",
+    "code": 335,
+    "msg": "An operation is not supported on a compressed file."
+  },
+  {
+    "title": "ERROR_DIRECTORY_NOT_SUPPORTED",
+    "code": 336,
+    "msg": "An operation is not supported on a directory."
+  },
+  {
+    "title": "ERROR_NOT_READ_FROM_COPY",
+    "code": 337,
+    "msg": "The specified copy of the requested data could not be read."
+  },
+  {
+    "title": "ERROR_FAIL_NOACTION_REBOOT",
+    "code": 350,
+    "msg": "No action was taken as a system reboot is required."
+  },
+  {
+    "title": "ERROR_FAIL_SHUTDOWN",
+    "code": 351,
+    "msg": "The shutdown operation failed."
+  },
+  {
+    "title": "ERROR_FAIL_RESTART",
+    "code": 352,
+    "msg": "The restart operation failed."
+  },
+  {
+    "title": "ERROR_MAX_SESSIONS_REACHED",
+    "code": 353,
+    "msg": "The maximum number of sessions has been reached."
+  },
+  {
+    "title": "ERROR_THREAD_MODE_ALREADY_BACKGROUND",
+    "code": 400,
+    "msg": "The thread is already in background processing mode."
+  },
+  {
+    "title": "ERROR_THREAD_MODE_NOT_BACKGROUND",
+    "code": 401,
+    "msg": "The thread is not in background processing mode."
+  },
+  {
+    "title": "ERROR_PROCESS_MODE_ALREADY_BACKGROUND",
+    "code": 402,
+    "msg": "The process is already in background processing mode."
+  },
+  {
+    "title": "ERROR_PROCESS_MODE_NOT_BACKGROUND",
+    "code": 403,
+    "msg": "The process is not in background processing mode."
+  },
+  {
+    "title": "ERROR_INVALID_ADDRESS",
+    "code": 487,
+    "msg": "Attempt to access invalid address."
+  }
+]
